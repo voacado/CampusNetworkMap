@@ -6,6 +6,7 @@
   <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no" />
   <title>Network Map - Northeastern University</title>
 
+  <!-- Load main stylesheet from local -->
   <link rel="stylesheet" href="main.css">
 
   <!-- Load Leaflet from CDN -->
@@ -19,6 +20,9 @@
   <!-- Load Esri Leaflet from CDN -->
   <script src="https://unpkg.com/esri-leaflet@3.0.0/dist/esri-leaflet.js"></script>
   <script src="https://unpkg.com/esri-leaflet-vector@3.0.0/dist/esri-leaflet-vector.js"></script>
+
+  <!-- Load Papa Parser to read data from CSV file -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.1/papaparse.min.js"></script>
 </head>
 
 <body>
@@ -27,9 +31,14 @@
   </main>
 
   <!-- Load Leaflet.SmoothWheelZoom from file 
-  Source: https://github.com/mutsuyuki/Leaflet.SmoothWheelZoom -->
+    Source: https://github.com/mutsuyuki/Leaflet.SmoothWheelZoom -->
   <script src="js/SmoothWheelZoom.js"></script>
+
+  <!-- Load Esri ArcGIS Map -->
   <script src="js/EsriMap.js"></script>
+
+  <!-- Place markers on the map based on network status -->
+  <script src="js/MarkerStatus.js"></script>
 
 </body>
 

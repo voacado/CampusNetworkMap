@@ -1,4 +1,5 @@
 /**
+* Generates the map used for the project.
 * The map is created using data from ESRI ArcGIS. It is then parsed through Leaflet.JS to visualize network nodes.
 * The documentation for ESRI Leaflet can be found here: https://esri.github.io/esri-leaflet/api-reference/
 */

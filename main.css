@@ -13,3 +13,13 @@ body {
   font-size: 14px;
   color: #323232; */
 }
+
+/* Move zoom controls to the bottom-right */
+
+.leaflet-control-container .leaflet-top.leaflet-left {
+  position: absolute;
+  left: auto;
+  right: 10px;
+  top: auto;
+  bottom: 25px
+}
