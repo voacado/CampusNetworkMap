@@ -1,0 +1,100 @@
+140 The Fenway
+142-148 Hemenway
+177 Huntington
+216 Mass Ave
+236 Huntington
+271 Huntington Ave
+300 Mass Ave
+319 Huntington
+407 Huntington
+768 Columbus Ave.
+780 Columbus Place
+Asian Center
+Behrakis
+Belvidere
+Broad St
+Burlington
+Burstein Hall
+Cabot Center
+Cahners Hall
+Charlotte-NC
+Churchill Hall
+Columbus Garage
+Columbus Place
+Coventry
+Cullinane Hall
+Curry Student Center
+Cushing Hall
+Dana Center Hall
+Davenport A
+Davenport B
+Dedham
+Dockser Hall
+Dodge Hall
+East Village
+Egan Center
+Ell Hall
+Fenway Center
+Forsyth
+Gainsborough Garage
+Hastings
+Hayden Hall
+Henderson Boathouse
+Hillel-Frager
+Holmes
+Hurtig Hall
+INV office
+ISE Complex
+International Village
+Kariotis
+Kennedy Hall
+Kerr Hall
+Knowles Hall
+Lake Hall
+Latino center
+Light Hall
+Loftman Hall
+London
+MGHPCC
+Marbury Terrace
+Marine Science Center
+Marino Center
+Marlborough DataCenter Colo 12 R2R3
+Matthews Arena
+Melvin Hall
+Meserve
+Midtown Hotel
+Mugar Hall
+Nahant Bunker-113
+Nightingale Hall
+Portland Roux Institute
+Renaissance Park Garage
+Richards Hall
+Rubenstein Hall
+Ruggles
+Ryder Hall
+San Jose
+Seattle
+Sheraton
+Shillman Hall
+Smith Hall
+Snell Engineering
+Snell Library
+Speare East
+Squashbusters
+St. Stephens St.
+Stearns Hall
+Stetson Center
+Stetson East
+Stetson West
+Toronto - 100 King St. West
+West Village A
+West Village B
+West Village C
+West Village E
+West Village F
+West Village G
+West Village H
+Westin Hotel
+White Hall
+Willis Hall

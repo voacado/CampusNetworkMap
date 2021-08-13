@@ -3,3 +3,6 @@ https://www.flaticon.com/free-icon/check-mark_1722017
 
 x-mark:
 https://www.flaticon.com/free-icon/cancel_1721977
+
+Northeastern.ico
+Favicon of https://www.northeastern.edu/

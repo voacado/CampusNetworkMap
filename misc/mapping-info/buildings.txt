@@ -1,0 +1,128 @@
+140 The Fenway
+142-148 Hemenway
+177 Huntington
+216 Mass Ave
+236 Huntington
+271 Huntington Ave
+300 Mass Ave
+319 Huntington
+407 Huntington
+768 Columbus Ave.
+780 Columbus Place
+Asian Center
+Behrakis
+Belvidere
+Broad St
+Burlington Kostas
+Burlington-147
+Burlington-Elliot
+Burlington-Library
+Burlington-VCC
+Burstein Hall
+Cabot Center - Cage Area
+Cabot Center Cage
+Cabot Center
+Cahners Hall
+Charlotte-NC
+Churchill Hall
+Columbus Garage
+Columbus Place
+Coventry
+Cullinane Hall
+Curry Student Center
+Cushing Hall
+Dana Center Hall
+Dana Hall
+Davenport A
+Davenport B
+Dedham
+Dockser Hall
+Dodge Hall
+East Village
+Egan Center
+Ell Hall
+Fenway Center
+Forsyth
+Gainsborough Garage
+Hastings
+Hayden Hall
+Henderson Boathouse
+Hillel-Frager
+Holmes
+Hurtig Hall
+INV office
+ISE Complex
+International Village Center
+International Village East
+International Village Office
+International Village West Penthouse
+International Village West
+Kariotis
+Kennedy Hall
+Kerr Hall
+Knowles Hall
+Lake Hall
+Latino center
+Light Hall
+Loftman Hall
+London
+MGHPCC
+Marbury Terrace
+Marine Science Center
+Marino Center
+Marlborough DataCenter Colo 12 R2R3
+Matthews Arena
+Melvin Hall
+Meserve
+Midtown Hotel
+Mugar Hall
+Nahant Bunker-113
+Nightingale CDF
+Nightingale Hall
+Portland Roux Institute
+Renaissance Park Garage
+Renaissance Park
+Richards CDF
+Richards DataCenter
+Richards Hall CDF
+Richards Hall Lab
+Richards Hall
+Rubenstein Hall
+Ruggles
+Ryder Hall
+San Jose
+Seattle 225 FL 1
+Seattle 225 Terry Ave
+Seattle
+Sheraton
+Shillman Hall
+Shillman
+Smith Hall East
+Smith Hall
+Smith Hall West
+Snell Engineering
+Snell Library CDF
+Snell Library
+Speare East
+Squashbusters
+St. Stephens St.
+Stearns Hall
+Stetson Center
+Stetson East CDF
+Stetson East
+Stetson West Basement
+Stetson West
+Toronto - 100 King St. West
+West Village A North
+West Village A South
+West Village B
+West Village C
+West Village E
+West Village F Media
+West Village F
+West Village G
+West Village H
+Westin
+Westin Hotel
+White Hall
+Willis Hall

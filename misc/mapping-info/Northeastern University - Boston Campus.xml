@@ -1,0 +1,944 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Northeastern University - Boston Campus</name>
+    <description/>
+    <Style id="icon-1899-0288D1-nodesc-normal">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1899-0288D1-nodesc-highlight">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1899-0288D1-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-0288D1-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-0288D1-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Untitled layer</name>
+      <Placemark>
+        <name>140 The Fenway</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -71.0917454,42.340598,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>142 Hemenway St</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -71.0902213,42.3420553,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>177 Huntington Ave</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -71.0827869,42.3449303,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>216 Massachusetts Ave</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -71.0863861,42.3450251,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>236 Huntington Ave</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -71.0842431,42.3428978,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>271 Huntington Ave</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -71.086278,42.3420989,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Horticulture Hall</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -71.0852932,42.3432417,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>319 Huntington Ave</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -71.0879108,42.3410167,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>407 Huntington Ave</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -71.0914695,42.339626,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>768 Columbus Ave</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -71.0862033,42.3371621,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>780 Columbus Ave</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -71.0868281,42.336806,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Asian-American Center</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -71.0903453,42.3431705,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Behrakis Health Sciences Center</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -71.0916533,42.3367142,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Belvidere Place</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -71.0838034,42.3453217,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>89 Broad St</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -71.0531828,42.3574581,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>147 S Bedford St</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -71.1886072,42.4799003,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Burstein Hall</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -71.0930429,42.3383121,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Northeastern University Cabot Physical Education Center</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -71.0896831,42.3393419,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Cahners Hall</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -71.091511,42.3414731,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>101 N Tryon St #1100</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -80.8429505,35.227695,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Churchill Hall</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -71.0889235,42.3387735,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Columbus Parking Garage</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -71.0858929,42.3378135,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Columbus Place and Alumni Center</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -71.0852898,42.3376775,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>10 COVENTRY</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -71.0859364,42.336863,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Cullinane Hall</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -71.0865077,42.3400821,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Curry Student Center</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -71.0875692,42.339145,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Cushing Hall</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -71.0914051,42.341663,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Dana Research Center</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -71.0893456,42.3380798,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Davenport Commons A</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -71.0847598,42.3379866,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Davenport Commons B</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -71.084264,42.3383029,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>370 Common St</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -71.19604,42.257066,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Dockser Hall</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -71.0904946,42.3386803,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Dodge Hall</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -71.0878495,42.3403238,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>East Village Residence Hall</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -71.0868561,42.3404143,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Egan Research Center</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -71.0888734,42.3376753,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ell Hall</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -71.0878001,42.339362,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Fenway Center</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -71.0879689,42.3420873,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Forsyth Building</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -71.0899066,42.3386092,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Gainsborough Parking Garage</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -71.0857488,42.3403821,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Hastings Hall</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -71.0872401,42.3407318,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Hayden Hall</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -71.0885286,42.3394629,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Henderson Boathouse</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -71.1415603,42.3640871,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Hillel-Frager</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -71.0876757,42.3415729,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Holmes Hall</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -71.0909023,42.3381833,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Hurtig Hall</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -71.0861594,42.339759,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Northeastern University Interdisciplinary Science & Engineering Complex]]></name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -71.0869617,42.3377153,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>International Village</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -71.0893785,42.3352493,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kariotis Hall</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -71.0909095,42.338627,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kennedy Hall</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -71.0904674,42.3428482,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kerr Hall</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -71.0912726,42.3418761,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Knowles Center</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -71.0908821,42.3391988,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Lake Hall</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -71.090881,42.3384176,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Latino/a Student Culture Center</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -71.0897489,42.3381703,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Light Hall</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -71.088164,42.341798,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Loftman Hall</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -71.0908388,42.3417284,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>19 Bedford Square</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -0.1305607,51.5194488,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Massachusetts Green High Performance Computing Center</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -72.6076956,42.202741,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Marbury Terrace</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -71.1023087,42.3180493,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Northeastern University Marine Science Center</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -70.9073684,42.4185262,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Marino Recreation Center</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -71.0900603,42.3401825,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>34 St Martin Dr</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -71.5792571,42.3129021,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Matthews Arena</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -71.0846418,42.3410767,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Melvin Hall</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -71.0911343,42.3420948,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Meserve Hall</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -71.0909389,42.3378086,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>The Midtown Hotel</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -71.0833588,42.3437118,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mugar Life Sciences Building</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -71.0871117,42.3397713,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Northeastern University Marine Science Center</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -70.9073684,42.4185262,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Nightingale Hall</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -71.0900171,42.3381906,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>100 Fore St</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -70.246612,43.6615163,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Renaissance Parking Garage</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -71.0882414,42.3362215,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Richards Hall</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -71.0887412,42.3399151,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Rubenstein Hall</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -71.0934552,42.3382784,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ruggles</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -71.0894054,42.3371526,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ryder hall</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -71.0908503,42.3366052,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Northeastern University — Silicon Valley</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -121.8897467,37.3375381,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Northeastern University Seattle</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -122.3373634,47.622834,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sheraton Boston Hotel</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -71.0839224,42.3465151,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Shillman Hall</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -71.0901908,42.3375534,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Smith Hall</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -71.0905952,42.3425089,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Snell Engineering Center</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -71.0888608,42.3382846,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Snell Library</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -71.0880713,42.3383962,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Frank Palmer Speare Hall</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -71.0897018,42.3406995,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>SquashBusters</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -71.0858607,42.3379555,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Saint Stephen Street</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -71.0875009,42.3418691,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Stearns Center</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -71.0913737,42.3389991,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Stetson Center
+</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -71.0898684,42.3411009,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Stetson East Residence Hall</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -71.0902123,42.3414082,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Stetson West Dormitory</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -71.0908214,42.3408045,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>First Canadian Place</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -79.3816667,43.6486111,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>West Village A (WVA)</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -71.0931066,42.3373714,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>West Village Residence Complex B</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -71.0920952,42.3376245,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>West Village C</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -71.0924557,42.3369288,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>West Village Residence Complex E</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -71.0913146,42.3366301,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>West Village F</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -71.0915888,42.3373567,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>West Village G</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -71.0921503,42.3379861,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>West Village H</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -71.0929667,42.3385915,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>The Westin Copley Place, Boston</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -71.0774615,42.3483206,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>White Hall</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -71.0912896,42.3398822,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Willis Hall</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -71.0913434,42.3381783,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

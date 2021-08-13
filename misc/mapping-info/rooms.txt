@@ -1,0 +1,348 @@
+140 The Fenway RM 133
+140 The Fenway RM 173A
+140 The Fenway RM 265B
+140 The Fenway RM R312
+140 The Fenway RM r410
+140 The Fenway RM x411
+142-148 Hemenway RM 000
+177 Huntington RM 1015
+177 Huntington RM 1213
+177 Huntington RM 211
+177 Huntington RM 307
+177 Huntington RM 411
+177 Huntington RM 611
+177 Huntington RM 813
+216 Mass Ave RM 100TR
+216 Mass Ave RM213b
+216 Mass Ave RM228c
+216 Mass Ave RM307C
+216 Mass Ave RM338C
+236 Huntington RM 529
+271 Huntington Ave RM 236
+300 Mass Ave
+319 Huntington RM 000
+337 Huntington RM 000
+407 Huntington
+768 Columbus Ave. RM 001
+780 Columbus Place RM 780
+Asian Center RM 001
+Behrakis RM 017a
+Behrakis RM 053
+Behrakis RM 142
+Behrakis RM 242
+Behrakis RM 342
+Behrakis RM 442
+Behrakis RM 542
+Behrakis RM 642
+Behrakis RM 742
+Belvidere RM 118
+Belvidere RM 175
+Belvidere RM 218
+Belvidere RM 275
+Belvidere RM 318
+Belvidere RM 375
+Belvidere RM 418
+Belvidere RM 475
+Broad St RM 266
+Burlington Kostas RM 292
+Burlington-147 RM 105
+Burlington-147 RM 205
+Burlington-147 RM 308
+Burlington-Elliot RM 123
+Burlington-Elliot RM 222
+Burlington-Library RM 007
+Burlington-VCC RM 130b
+Burstein Hall RM 106
+Cabot Center - Cage Area
+Cabot Center Cage
+Cabot Center RM 166
+Cabot Center RM 207
+Cahners Hall RM 022
+Cargill Hall RM 085
+Charlotte-NC RM 1111
+Charlotte-NC RM 1135
+Churchill Hall RM 327a
+Columbus Garage
+Columbus Place RM 349
+Columbus Place RM 449
+Columbus Place RM 549
+Columbus Place RM 600
+Columbus Place RM 84
+Coventry RM 214
+Coventry RM 514
+Cullinane Hall RM 100a
+Curry Student Center RM 001
+Curry Student Center RM 240
+Curry Student Center RM 440
+Cushing Hall RM 014
+Dana Center Hall RM 134a
+Dana Center Hall RM 229
+Dana Center Hall RM 434
+Dana Hall RM 242
+Davenport A RM 100
+Davenport A RM 300
+Davenport A RM 500
+Davenport B RM 115
+Davenport B RM 315
+Davenport B RM 515
+Dedham RM 221
+Dockser Hall RM 204
+Dodge Hall RM 133
+Dodge Hall RM 165
+Dodge Hall RM 433
+Dodge Hall RM 465
+East Village RM 000M2
+East Village RM 012a
+East Village RM 102c
+East Village RM 1500m2
+East Village RM 1714
+East Village RM 200m2
+East Village RM 300m2
+East Village RM 900m2
+Egan Center RM 118
+Egan Center RM 220
+Egan Center RM 320
+Egan Center RM 420
+Ell Hall RM 003a
+Ell Hall RM 404a
+Fenway Center RM Basement
+Forsyth RM 005
+Forsyth RM 206
+Gainsborough Garage RM 001
+Hastings RM 200
+Hastings RM 200a
+Hastings RM 744
+Hayden Hall RM 005
+Hayden Hall RM 011
+Hayden Hall RM 105
+Hayden Hall RM 407
+Henderson Boathouse RM 109
+Hillel-Frager RM BSMT
+Holmes RM 113
+Holmes RM 414
+Hurtig Hall RM 126
+Hurtig Hall RM 329
+INV office room 208
+ISE Complex RM 003
+ISE Complex RM 063
+ISE Complex RM 106
+ISE Complex RM 145
+ISE Complex RM 236
+ISE Complex RM 275A
+ISE Complex RM 336
+ISE Complex RM 375A
+ISE Complex RM 436
+ISE Complex RM 475A
+ISE Complex RM 536
+ISE Complex RM 575A
+ISE Complex RM 636
+ISE Complex RM 675A
+International Village Center RM 031
+International Village East RM 1278
+International Village East RM 1978
+International Village East RM 478
+International Village East RM 578
+International Village East RM 878
+International Village Office RM 402
+International Village West Penthouse
+International Village West RM 1113
+International Village West RM 1613
+International Village West RM 313
+International Village West RM 513
+International Village West RM 813
+Kariotis RM 003
+Kennedy Hall RM 000
+Kennedy Hall RM 010
+Kerr Hall RM 220b
+Kerr Hall Room 326
+Knowles Hall RM 138
+Knowles Hall RM 326
+Lake Hall RM 052
+Lake Hall RM 452
+Latino center RM 221
+Light Hall RM 010
+Loftman Hall RM 021
+London RM XXXX
+MGHPCC
+Marbury Terrace AAMARP
+Marbury Terrace RM Office
+Marine Science Center Bunker-2b
+Marine Science Center Pump House
+Marine Science Center RM 100n1
+Marine Science Center Trailer 1
+Marine Science Center Trailer 2
+Marino Center Pop-up
+Marino Center RM 166
+Marlborough DataCenter Colo 12 R2R3
+Matthews Arena RM 050
+Matthews Arena RM 091
+Matthews Arena RM 125
+Matthews Arena RM 300
+Melvin Hall RM 128
+Meserve RM 166a
+Meserve RM 436a
+Midtown Hotel
+Mugar Hall RM 100m7
+Mugar Hall RM 219b
+Mugar Hall RM 317
+Nahant Bunker-113
+Nightingale CDF RM 028
+Nightingale Hall RM 131
+Nightingale Hall RM 424
+Portland Roux Institute
+Renaissance Park Garage RM 001
+Renaissance Park RM 119
+Renaissance Park RM 160h2 - EOCC
+Renaissance Park RM 200
+Renaissance Park RM 300
+Renaissance Park RM 400
+Renaissance Park RM 900
+Richards CDF RM 37
+Richards DataCenter RM 40 - NU
+Richards DataCenter RM 40 - Row 5 Rack 0
+Richards Hall CDF - NU190177
+Richards Hall CDF RM 037
+Richards Hall Lab RM 44
+Richards Hall RM 118
+Richards Hall RM 218
+Richards Hall RM 318
+Richards Hall RM 451
+Richards Hall RM020
+Robinson Hall RM 208
+Rubenstein Hall RM 013
+Ruggles RM 100
+Ryder Hall RM 146
+Ryder Hall RM 341
+Ryder Hall RM 411
+San Jose RM 130C
+San Jose RM XXXX
+Seattle 225 FL 1
+Seattle 225 Terry Ave
+Seattle RM 100
+Seattle RM 115
+Sheraton Floor 10
+Sheraton Floor 11
+Sheraton Floor 12
+Sheraton Floor 13
+Sheraton Floor 14
+Sheraton Floor 15
+Sheraton Floor 16
+Sheraton Floor 17
+Sheraton Floor 18
+Sheraton Floor 19
+Sheraton Floor 20
+Sheraton Floor 21
+Sheraton Floor 22
+Sheraton Floor 23
+Sheraton Floor 24
+Sheraton Floor 25
+Sheraton Floor 26
+Sheraton Floor 27
+Sheraton Floor 28
+Sheraton Floor 29
+Sheraton Floor 5
+Sheraton Floor 6
+Sheraton Floor 7
+Sheraton Floor 8
+Sheraton Floor 9
+Shillman Hall RM 105
+Shillman Hall RM 135
+Shillman Hall RM 210
+Shillman Hall RM 215
+Shillman Hall RM 220
+Shillman Hall RM 305
+Shillman Hall RM 315
+Shillman Hall RM 325
+Shillman Hall RM 335
+Shillman Hall RM 415
+Shillman Hall RM 420
+Shillman Hall RM 425
+Shillman RM 243
+Smith Hall East RM 100d3
+Smith Hall RM 002
+Smith Hall West RM 100d1
+Snell Engineering RM 112
+Snell Engineering RM 212
+Snell Engineering RM 280
+Snell Engineering RM 312
+Snell Engineering RM 412
+Snell Library CDF
+Snell Library CDF RM 66
+Snell Library RM 113
+Snell Library RM 148
+Snell Library RM 230
+Snell Library RM 268
+Snell Library RM 320
+Snell Library RM 368
+Snell Library RM 68
+Snell Library RM 79
+Speare East RM 100m6
+Speare East RM 200m6
+Speare East RM 300m6
+Speare East RM 400m6
+Speare West RM 100m5
+Speare West RM 200m5
+Speare West RM 300m5
+Speare West RM 400m5
+Squashbusters RM 426
+St. Stephens St. RM 006d1
+St. Stephens St. RM 010
+St. Stephens St. RM 011
+St. Stephens St. RM 106
+Stearns Hall RM 121
+Stearns Hall RM 406
+Stetson Center RM 100
+Stetson Center RM 200
+Stetson Center RM 300
+Stetson Center RM 400
+Stetson East CDF
+Stetson East CDF - NU187381
+Stetson East RM 112
+Stetson East RM 212
+Stetson East RM 312
+Stetson East RM 412
+Stetson West Basement RM 021
+Stetson West RM 100
+Stetson West RM 200
+Stetson West RM 300
+Stetson West RM 400
+Toronto - 100 King St. West
+West Village A North Room 110
+West Village A North Room 1200
+West Village A North Room 300
+West Village A North Room 600
+West Village A North Room 900
+West Village A South Room 300
+West Village A South Room 500
+West Village B 100-1
+West Village B 100-2
+West Village C Room 112
+West Village E RM 015
+West Village E RM 500m4
+West Village E RM 500m6
+West Village E RM 800m4
+West Village E RM 800m8
+West Village F Media RM 102
+West Village F RM 044
+West Village F RM 102
+West Village F RM 400
+West Village G RM 200
+West Village G RM 500
+West Village H RM 020
+West Village H RM 102
+West Village H RM 1604
+West Village H RM 206
+West Village H RM 304
+Westin
+Westin Hotel
+Westin Hotel - 2nd Floor
+Westin Hotel - 2nd Floor Newbury Conference RM
+Westin Hotel - 3rd Floor
+Westin Hotel - 3rd Floor Essex Center Conf RM
+Westin Hotel - 3rd Floor St George A Conf RM
+Westin Hotel - 3rd Floor Staffordshire Conf RM
+White Hall RM 214
+White Hall RM 231
+White Hall RM 245
+Willis Hall RM 100
+Willis Hall RM 500
