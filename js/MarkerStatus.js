@@ -189,14 +189,36 @@ function determineIcon(listOfDevices) {
  * and parsed appropriately.
  */
 function run() {
+
+  var i = 30;
+  var origLoopTime = i.valueOf();
+
   // Add markers
   loadCSV('data/exampleAkipsStatus2.csv') // load CSV first
     .then(() => loadSQLite('data/buildings.db')) // then load SQLite db (order is important for return result)
     .then(function (database) { // database = the returned promise from loadSQLite
       placeMarkerSQL(database);
 
-      // Run update() every 2000ms (2 seconds).
-      var i = setInterval(function () { update(database); }, 2000);
+      // Run update() every 60000ms (60 seconds).
+      var int = setInterval(function () {
+        // Update page HTML
+        document.getElementById("updateTimerText").innerHTML = "Next update in: " + (i - 1) + " seconds";
+        i--;
+
+        // once the timer hits 0, update the map markers and restart the timer.
+        if (i == 0) {
+          update(database);
+          i = origLoopTime;
+        }
+      }, 1000);
+
+      // On button click, update the markers, reset the timer, and update the page information
+      document.getElementById("updateTimerButton").onclick = function () {
+        update(database);
+        i = origLoopTime;
+        document.getElementById("updateTimerText").innerHTML = "Next update in: " + (i - 1) + " seconds";
+      };
+
     });
 }
 
