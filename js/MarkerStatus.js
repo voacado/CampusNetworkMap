@@ -79,7 +79,17 @@ function loadCSV(location) {
       download: true,
       dynamicTyping: true,
       step: function (row) {
-        csvData.set(row.data.Device, row.data); // Create a Map of the CSV
+        // Create a Map of the CSV as:
+        // key = Building Code (ex. RY)
+        // value = list of objects representing each network device for said code
+
+        // if the Building Code key already exists, add it to the list,
+        // otherwise create a new list.
+        if (csvData.has(row.data.Code)) {
+          csvData.get(row.data.Code).push(row.data);
+        } else {
+          csvData.set(row.data.Code, new Array(row.data));
+        }
       },
       complete: function (results) {
         resolve('Parse CSV done.') // Resolve = done and promise fulfilled.
@@ -131,12 +141,12 @@ function loadSQLite(path) {
  */
 function placeMarkerSQL(db) {
   // .exec stores the result in an array of objects (numbered 0 to ...)
-  const contents = db.exec("SELECT * FROM BuildingInfo");
+  const contents = db.exec("SELECT * FROM BuildingCodes");
   // this object contains two arrays: columns and values
   var data = contents[0].values;
 
   // Array Key:
-  // 0 - Title, 1 - Latitude, 2 - Longitude, 3 - Devices
+  // 0 - Title, 1 - Latitude, 2 - Longitude, 3 - Codes
   for (var i in data) {
     var row = data[i];
     var marker = L.marker([row[1], row[2]],
@@ -150,24 +160,56 @@ function placeMarkerSQL(db) {
  * Determines the icon to display for a building based on the state of the network devices 
  * in said building.
  * 
- * @param {String} listOfDevices a string of all the devices assigned to a building.
+ * @param {String} listOfDevices a string of all the building codes associated with said building.
  * @returns the icon to use for the node on the map.
  */
 function determineIcon(listOfDevices) {
   // Split the list of devices (comma-delimited, auto-trims extra spaces)
-  // Example: accs-tf-133-1,accs-tf-173a-1,accs-tf-265b-1,accs-tf-r312-1,accs-tf-r410-1,accs-tf-x411-1
-  var deviceArray = listOfDevices.split(/\s*,\s*/);
+  // Example: 142, 144, 146, 148 -> [142, 144, 146, 148]
+  var buildingCodeArray = listOfDevices.split(/\s*,\s*/);
 
-  // for each device in the device array (associated with a building), make sure all devices are on.
-  for (var i = 0; i < deviceArray.length; i++) {
-    // if any devices are off, return the bad icon (red x)
-    if (csvData.get(deviceArray[i]).Status == "down") {
-      return badIcon;
-    }
+  // for each building code, determine if the associated devices are all on (working).
+  for (var i = 0; i < buildingCodeArray.length; i++) {
+
+    // TODO: revamp logic here based on new csv data format (key, list(object))
+
+
+
+
+    // // if any devices are off, return the bad icon (red x)
+    // if (csvData.get(buildingCodeArray[i]).Status == "down") {
+    //   return badIcon;
+    // }
   }
   // else, return the good icon (green checkmark)
   return goodIcon;
 }
+
+
+
+
+// /**
+//  * Determines the icon to display for a building based on the state of the network devices 
+//  * in said building.
+//  * 
+//  * @param {String} listOfDevices a string of all the devices assigned to a building.
+//  * @returns the icon to use for the node on the map.
+//  */
+// function determineIcon(listOfDevices) {
+//   // Split the list of devices (comma-delimited, auto-trims extra spaces)
+//   // Example: accs-tf-133-1,accs-tf-173a-1,accs-tf-265b-1,accs-tf-r312-1,accs-tf-r410-1,accs-tf-x411-1
+//   var deviceArray = listOfDevices.split(/\s*,\s*/);
+
+//   // for each device in the device array (associated with a building), make sure all devices are on.
+//   for (var i = 0; i < deviceArray.length; i++) {
+//     // if any devices are off, return the bad icon (red x)
+//     if (csvData.get(deviceArray[i]).Status == "down") {
+//       return badIcon;
+//     }
+//   }
+//   // else, return the good icon (green checkmark)
+//   return goodIcon;
+// }
 
 /*
   _____  _    _ _   _ _   _ _____ _   _  _____             _   _ _____  

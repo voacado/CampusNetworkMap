@@ -1,460 +1,461 @@
-﻿accs-ev-300m2-1,East Village RM 300m2,2,up
-accs-sh-315av-1,Shillman Hall RM 315,2,up
-accs-sheraton-fl5,Sheraton Floor 5,2,up
-accs-wh-214-1,White Hall RM 214,2,up
-accs-stw-021-1,Stetson West Basement RM 021,2,up
-accs-se-312-1,Stetson East RM 312,2,up
-accs-invw-513-1,International Village West RM 513,2,up
-accs-cb-166-1,Cabot Center RM 166,2,up
-accs-sl-230-2,Snell Library RM 230,2,up
-accs-cf-1,,2,up
-accs-invw-1113-1,International Village West RM 1113,2,up
-accs-bk-017a-1,Behrakis RM 017a,2,up
-accs-ri-218-1,Richards Hall RM 218,2,up
-accs-ha-005-1,Hayden Hall RM 005,2,up
-accs-ise-675a-2,ISE Complex RM 675A,2,up
-accs-ws-1500-2,Westin,1,down
-accs-hf-bsmt-1,Hillel-Frager RM BSMT,2,up
-accs-ws-1100-2,Westin,1,down
-accs-sl-320-1,Snell Library RM 320,2,up
-accs-wvf-044-1,West Village F RM 044,2,up
-accs-ry-146-1,Ryder Hall RM 146,2,up
-accs-ru-013-1,Rubenstein Hall RM 013,2,up
-accs-sea-100-1,Seattle RM 100,2,up
-accs-bk-442-1,Behrakis RM 442,2,up
-accs-101bv-318-1,Belvidere RM 318,2,up
-accs-122ss-010-1,St. Stephens St. RM 010,2,up
-accs-da-229-1,Dana Center Hall RM 229,2,up
-accs-md-mdf-1,Midtown Hotel,2,up
-accs-ev-102c-1,East Village RM 102c,2,up
-accs-ec-220-1,Egan Center RM 220,2,up
-accs-ise-536-1,ISE Complex RM 536,2,up
-accs-sc-400-1,Stetson Center RM 400,2,up
-accs-li-010-1,Light Hall RM 010,2,up
-accs-mgt-mr-c12-r2r3-1,Marlborough DataCenter Colo 12 R2R3,2,up
-accs-wvh-206-1,West Village H RM 206,2,up
-accs-sheraton-fl7,Sheraton Floor 7,2,up
-accs-wvb-100-2,West Village B 100-2,2,up
-accs-sheraton-fl10,Sheraton Floor 10,2,up
-accs-bk-542-1,Behrakis RM 542,2,up
-accs-ws-1800-2,Westin,1,down
-accs-ma-125-1,Matthews Arena RM 125,2,up
-accs-177hu-211-1,177 Huntington RM 211,2,up
-accs-mh-128-1,Melvin Hall RM 128,2,up
-accs-101bv-218-1,Belvidere RM 218,2,up
-accs-msc-trailer1-1,Marine Science Center Trailer 1,2,up
-accs-wi-500-1,Willis Hall RM 500,2,up
-accs-rp-300-1,Renaissance Park RM 300,2,up
-accs-mc-152-1,Marino Center Pop-up,2,up
-accs-ho-113-1,Holmes RM 113,2,up
-accs-la-052-1,Lake Hall RM 052,2,up
-accs-da-134a-1,Dana Center Hall RM 134a,2,up
-accs-sn-312-1,Snell Engineering RM 312,2,up
-accs-101bv-175-1,Belvidere RM 175,2,up
-accs-sl-268-1,Snell Library RM 268,2,up
-accs-spe-100m6-1,Speare East RM 100m6,2,up
-accs-la-453-1,Lake Hall RM 452,2,up
-accs-ise-106-1,ISE Complex RM 106,2,up
-accs-fr-005-1,Forsyth RM 005,2,up
-accs-ws-2600-2,Westin,1,down
-accs-hs-744-1,Hastings RM 744,2,up
-accs-cp-349-1,Columbus Place RM 349,2,up
-accs-stecdf-mgt-1,Stetson East CDF,2,up
-accs-ws-1000-2,Westin,1,down
-accs-ise-003-2,ISE Complex RM 003,2,up
-accs-bl-elliot-123-1,Burlington-Elliot RM 123,2,up
-accs-rp-119-2,Renaissance Park RM 119,2,up
-accs-dg-165-1,Dodge Hall RM 165,2,up
-accs-sheraton-fl22,Sheraton Floor 22,2,up
-accs-ws-500-1,Westin Hotel - 3rd Floor,1,down
-accs-sheraton-fl23,Sheraton Floor 23,2,up
-accs-ws-1900-2,Westin,1,down
-accs-spw-200m5-1,Speare West RM 200m5,2,up
-accs-sh-305av-1,Shillman Hall RM 305,2,up
-accs-wvan-110-1,West Village A North Room 110,2,up
-accs-216mav-213b-1,216 Mass Ave RM213b,2,up
-accs-da-434-2,Dana Center Hall RM 434,2,up
-accs-wvf-400-1,West Village F RM 400,2,up
-accs-216mav-307b-1,216 Mass Ave RM307C,2,up
-accs-kn-326-1,Knowles Hall RM 326,2,up
-accs-sheraton-fl18,Sheraton Floor 18,2,up
-accs-sw-200-1,Stetson West RM 200,2,up
-accs-216mav-338c-1,216 Mass Ave RM338C,2,up
-accs-sh-425av-1,Shillman Hall RM 425,2,up
-accs-ry-341-1,Ryder Hall RM 341,2,up
-accs-clt-1111av-1,Charlotte-NC RM 1111,2,up
-accs-sh-243-1,Shillman RM 243,2,up
-accs-ws-1400-1,Westin Hotel,1,down
-accs-dk-204-2,Dockser Hall RM 204,2,up
-accs-mu-219b-1,Mugar Hall RM 219b,2,up
-accs-ev-1714-1,East Village RM 1714,2,up
-accs-fr-206-1,Forsyth RM 206,2,up
-accs-177hu-1213-1,177 Huntington RM 1213,2,up
-accs-ws-2200-2,Westin,1,down
-accs-ws-300-2,Westin,1,down
-accs-bd-266-1,Broad St RM 266,2,up
-accs-ch-327a-2,Churchill Hall RM 327a,2,up
-accs-inve-878-1,International Village East RM 878,2,up
-accs-tf-265b-1,140 The Fenway RM 265B,2,up
-accs-mt-aamarp-1,Marbury Terrace AAMARP,2,up
-accs-invw-2000-1,International Village West Penthouse,2,up
-accs-ss-006d1-1,St. Stephens St. RM 006d1,2,up
-accs-dg-433-1,Dodge Hall RM 433,2,up
-accs-wvf-170a-1,West Village F Media RM 102,2,up
-accs-se-cdf-1,Stetson East CDF - NU187381,2,up
-accs-ise-575a-1,ISE Complex RM 575A,2,up
-accs-slcdf-mgt-1,Snell Library CDF RM 66,2,up
-accs-ws-2300-1,Westin Hotel,1,down
-accs-ise-145-1,ISE Complex RM 145,2,up
-accs-bl-147-205-1,Burlington-147 RM 205,2,up
-accs-177hu-1015-2,177 Huntington RM 1015,2,up
-accs-ri-118a-3,Richards Hall RM 118,2,up
-accs-ws-2500-2,Westin,1,down
-accs-invw-313-1,International Village West RM 313,2,up
-accs-roux-123-1,Portland Roux Institute,2,up
-accs-ws-stga-1,Westin Hotel - 3rd Floor St George A Conf RM,1,down
-accs-319hu-000-1,319 Huntington RM 000,2,up
-accs-177hu-1015-1,177 Huntington RM 1015,2,up
-accs-ha-011-3,Hayden Hall RM 011,2,up
-accs-ws-2100-2,Westin,1,down
-accs-london-idf-c-1,London RM XXXX,2,up
-accs-rp-400-1,Renaissance Park RM 400,2,up
-accs-wve-500m4-1,West Village E RM 500m4,2,up
-accs-de-221-1,Dedham RM 221,2,up
-accs-101bv-475-1,Belvidere RM 475,2,up
-accs-sn-412-1,Snell Engineering RM 412,2,up
-accs-ricdf-mgt-1,Richards Hall CDF RM 037,2,up
-accs-ht-126-1,Hurtig Hall RM 126,2,up
-accs-ws-1700-2,Westin,1,down
-accs-bl-vcc-130b-1,Burlington-VCC RM 130b,2,up
-accs-ise-275a-1,ISE Complex RM 275A,2,up
-accs-ho-113-2,Holmes RM 113,2,up
-accs-wvc-112-2,West Village C Room 112,2,up
-accs-fenway-1,Fenway Center RM Basement,2,up
-accs-780cp-1,780 Columbus Place RM 780,2,up
-accs-cf-2,,2,up
-accs-sc-300-1,Stetson Center RM 300,2,up
-accs-109hm-001-1,Asian Center RM 001,2,up
-accs-invc-031-1,International Village Center RM 031,2,up
-accs-sn-280-1,Snell Engineering RM 280,2,up
-accs-inve-478-1,International Village East RM 478,2,up
-accs-msc-pumphouse-1,Marine Science Center Pump House,2,up
-accs-hs-200a-1,Hastings RM 200,2,up
-accs-sl-230-1,Snell Library RM 230,2,up
-accs-spw-100m5-1,Speare West RM 100m5,2,up
-accs-dvb-115-1,Davenport B RM 115,2,up
-accs-ev-300m2-2,East Village RM 300m2,2,up
-accs-bl-library-007-1,Burlington-Library RM 007,2,up
-accs-dvb-515-1,Davenport B RM 515,2,up
-accs-sm-100d3-1,Smith Hall East RM 100d3,2,up
-accs-bk-342-1,Behrakis RM 342,2,up
-accs-sheraton-fl28,Sheraton Floor 28,2,up
-accs-invo-402-1,International Village Office RM 402,2,up
-accs-sheraton-fl12,Sheraton Floor 12,2,up
-accs-invw-1613-1,International Village West RM 1613,2,up
-accs-nicdf-mgt-1,Nightingale CDF RM 028,2,up
-accs-236hu-529-1,236 Huntington RM 529,2,up
-accs-bk-642-1,Behrakis RM 642,2,up
-accs-157he-021-1,Loftman Hall RM 021,2,up
-accs-csc-438-1,Curry Student Center RM 440,2,up
-accs-se-412-1,Stetson East RM 412,2,up
-accs-sheraton-fl13,Sheraton Floor 13,2,up
-accs-sh-415av-1,Shillman Hall RM 415,2,up
-accs-da-229-2,Dana Center Hall RM 229,2,up
-accs-ise-675a-1,ISE Complex RM 675A,2,up
-accs-mgh-poda-r3c11-1,MGHPCC,1,down
-accs-ec-220-2,Egan Center RM 220,2,up
-accs-sea-115-1,Seattle RM 115,2,up
-accs-wve-800m4-1,West Village E RM 800m4,2,up
-accs-ry-146-2,Ryder Hall RM 146,2,up
-accs-wh-245-1,White Hall RM 245,2,up
-accs-cf-es-1,,2,up
-accs-ise-063-2,ISE Complex RM 063,2,up
-accs-cp-549-1,Columbus Place RM 549,2,up
-accs-fr-206-2,Forsyth RM 206,2,up
-accs-cp-600-1,Columbus Place RM 600,2,up
-accs-177hu-307av-1,177 Huntington RM 307,2,up
-accs-sh-420av-1,Shillman Hall RM 420,1,down
-accs-sw-100-1,Stetson West RM 100,2,up
-accs-300mav-000-1,300 Mass Ave,2,up
-accs-dk-204-1,Dockser Hall RM 204,2,up
-accs-sh-135av-1,Shillman Hall RM 135,2,up
-accs-ise-236-1,ISE Complex RM 236,2,up
-accs-msc-trailer2-1,Marine Science Center Trailer 2,2,up
-accs-sjc-1008-1,San Jose RM XXXX,2,up
-accs-ws-300-1,Westin Hotel - 3rd Floor,1,down
-accs-177hu-2214-1,177 Huntington RM 211,2,up
-accs-bl-dc-1,,2,up
-accs-bd-266-2,Broad St RM 266,2,up
-accs-cb-207-1,Cabot Center RM 207,2,up
-accs-tf-173a-1,140 The Fenway RM 173A,2,up
-accs-ws-1600-2,Westin,1,down
-accs-spe-200m6-1,Speare East RM 200m6,2,up
-accs-ss-011-1,St. Stephens St. RM 011,2,up
-accs-cv-514-1,Coventry RM 514,2,up
-accs-ws-2000-2,Westin,1,down
-accs-sheraton-fl20,Sheraton Floor 20,2,up
-accs-ri-118a-2,Richards Hall RM 118,2,up
-accs-ise-336-2,ISE Complex RM 336,2,up
-accs-bl-147-105-1,Burlington-147 RM 105,2,up
-accs-mt-office-1,Marbury Terrace RM Office,2,up
-accs-tf-x411-1,140 The Fenway RM x411,2,up
-accs-bk-742-1,Behrakis RM 742,2,up
-accs-tf-r312-1,140 The Fenway RM R312,2,up
-accs-mgh-podc-r3c13-1,MGHPCC,1,down
-accs-ise-636-1,ISE Complex RM 636,2,up
-accs-rpg-001-1,Renaissance Park Garage RM 001,2,up
-accs-wvan-900-1,West Village A North Room 900,2,up
-accs-ri-44-test-4,Richards Hall Lab RM 44,2,up
-accs-sea-225-1,Seattle 225 Terry Ave,2,up
-accs-216mav-100tr-1,216 Mass Ave RM 100TR,2,up
-accs-cp-84-1,Columbus Place RM 84,2,up
-accs-ws-500-2,Westin,1,down
-accs-ev-1500m2-2,East Village RM 1500m2,2,up
-accs-ws-1300-1,Westin Hotel,1,down
-accs-rp-119-1,Renaissance Park RM 119,2,up
-accs-tf-133-1,140 The Fenway RM 133,2,up
-accs-cb-cage-2,Cabot Center Cage,2,up
-accs-sh-325av-1,Shillman Hall RM 325,2,up
-accs-ws-2400-1,Westin Hotel,1,down
-accs-337hu-000-1,337 Huntington RM 000,2,up
-accs-da-434-1,Dana Center Hall RM 434,2,up
-accs-cp-449-1,Columbus Place RM 449,2,up
-accs-ma-050-1,Matthews Arena RM 050,2,up
-accs-ht-329-1,Hurtig Hall RM 329,2,up
-accs-ws-1200-2,Westin,1,down
-accs-ho-414-1,Holmes RM 414,2,up
-accs-sheraton-fl8,Sheraton Floor 8,2,up
-accs-dva-300-1,Davenport A RM 300,2,up
-accs-ry-341-2,Ryder Hall RM 341,2,up
-accs-sheraton-fl29,Sheraton Floor 29,2,up
-accs-rp-160h2-1,Renaissance Park RM 160h2 - EOCC,2,up
-accs-ma-091-1,Matthews Arena RM 091,2,up
-accs-ri-44-test-1,Richards Hall Lab RM 44,2,up
-accs-177hu-411-1,177 Huntington RM 411,2,up
-accs-mgh-podc-r3c5-1,MGHPCC,1,down
-accs-wh-231-1,White Hall RM 231,2,up
-accs-407hu-1,407 Huntington,2,up
-accs-ev-012a-1,East Village RM 012a,2,up
-accs-sheraton-fl9,Sheraton Floor 9,2,up
-accs-invo-208av-1,INV office room 208,2,up
-accs-csc-238-1,Curry Student Center RM 240,2,up
-accs-177hu-813-1,177 Huntington RM 813,2,up
-accs-ws-essex-1,Westin Hotel - 3rd Floor Essex Center Conf RM,1,down
-accs-wvb-100-1,West Village B 100-1,2,up
-accs-kn-138-1,Knowles Hall RM 138,2,up
-accs-ws-1800-1,Westin Hotel,1,down
-accs-177hu-611-1,177 Huntington RM 611,2,up
-accs-st-121-1,Stearns Hall RM 121,2,up
-accs-cf-6,,2,up
-accs-sc-200-1,Stetson Center RM 200,2,up
-accs-me-436a-1,Meserve RM 436a,2,up
-accs-cf-3,,2,up
-accs-ri-451-1,Richards Hall RM 451,2,up
-accs-mgh-mda-r6c25-1,MGHPCC,1,down
-accs-mc-166-1,Marino Center RM 166,2,up
-accs-gg-001-1,Gainsborough Garage RM 001,2,up
-accs-se-112-1,Stetson East RM 112,2,up
-accs-wvas-300-1,West Village A South Room 300,2,up
-accs-da-134a-2,Dana Center Hall RM 134a,2,up
-accs-sh-210av-1,Shillman Hall RM 210,2,up
-accs-101bv-418-1,Belvidere RM 418,2,up
-accs-ma-300-1,Matthews Arena RM 300,2,up
-accs-invw-813-1,International Village West RM 813,2,up
-accs-hbh-109-1,Henderson Boathouse RM 109,2,up
-accs-cg-085-1,Cargill Hall RM 085,2,up
-accs-ise-106-2,ISE Complex RM 106,2,up
-accs-ni-424-1,Nightingale Hall RM 424,2,up
-accs-wvh-304-1,West Village H RM 304,2,up
-accs-bl-kostas-292-1,Burlington Kostas RM 292,2,up
-accs-20RI-test-1,Richards Hall RM020,2,up
-accs-da-242-1,Dana Hall RM 242,2,up
-accs-dva-100-1,Davenport A RM 100,2,up
-accs-20RI-EIP-VLAN-Test,Richards Hall RM020,1,down
-accs-ka-003-1,Kariotis RM 003,2,up
-accs-mgh-poda-r3c12-1,MGHPCC,1,down
-accs-lc-221-1,Latino center RM 221,2,up
-accs-dva-500-1,Davenport A RM 500,2,up
-accs-mu-100m7-2,Mugar Hall RM 100m7,2,up
-accs-spe-100m6-2,Speare East RM 100m6,2,up
-accs-mgt-ri-37-r5r0-1,Richards DataCenter RM 40 - Row 5 Rack 0,2,up
-accs-ise-475a-1,ISE Complex RM 475A,2,up
-accs-london-idf-a-1,London RM XXXX,2,up
-accs-bk-242-1,Behrakis RM 242,2,up
-accs-sn-112-1,Snell Engineering RM 112,2,up
-accs-sheraton-fl25,Sheraton Floor 25,2,up
-accs-csc-anc-1,Curry Student Center RM 001,2,up
-accs-sheraton-fl21,Sheraton Floor 21,2,up
-accs-ec-420-1,Egan Center RM 420,2,up
-accs-ws-1500-1,Westin Hotel,1,down
-accs-dk-204-3,Dockser Hall RM 204,2,up
-accs-ws-1100-1,Westin Hotel,1,down
-accs-inve-1978-1,International Village East RM 1978,2,up
-accs-rb-208-2,Robinson Hall RM 208,2,up
-accs-bu-000-1,Burstein Hall RM 106,1,down
-accs-sl-148-1,Snell Library RM 148,2,up
-accs-bk-053-1,Behrakis RM 053,2,up
-accs-ws-1400-2,Westin,1,down
-accs-rg-1,Ruggles RM 100,2,up
-accs-sheraton-fl14,Sheraton Floor 14,2,up
-accs-inve-1278-1,International Village East RM 1278,2,up
-accs-st-406-1,Stearns Hall RM 406,2,up
-accs-sh-105av-1,Shillman Hall RM 105,2,up
-accs-kr-326-1,Kerr Hall Room 326,2,up
-accs-ws-2200-1,Westin Hotel,1,down
-accs-ws-200-1,Westin Hotel - 2nd Floor,1,down
-accs-ws-essex-sth-1,Westin Hotel - 3rd Floor,1,down
-accs-ch-327a-1,Churchill Hall RM 327a,2,up
-accs-sm-002-1,Smith Hall RM 002,2,up
-accs-tf-r410-1,140 The Fenway RM r410,2,up
-accs-bl-dc-2,,2,up
-accs-216mav-228c-1,216 Mass Ave RM228c,2,up
-accs-ni-131-1,Nightingale Hall RM 131,2,up
-accs-sheraton-fl26,Sheraton Floor 26,2,up
-accs-ni-cdf-1,Nightingale CDF RM 028,2,up
-accs-bl-elliot-222-1,Burlington-Elliot RM 222,2,up
-accs-sm-100d1-1,Smith Hall West RM 100d1,2,up
-accs-rp-900-1,Renaissance Park RM 900,2,up
-accs-ws-2300-2,Westin,1,down
-accs-768cp-001-1,768 Columbus Ave. RM 001,2,up
-accs-cn-100a-1,Cullinane Hall RM 100a,2,up
-accs-wvh-1604-2,West Village H RM 1604,2,up
-accs-ws-2600-1,Westin Hotel,1,down
-accs-wvan-300-1,West Village A North Room 300,2,up
-accs-ise-003-1,ISE Complex RM 003,2,up
-accs-mu-317-2,Mugar Hall RM 317,2,up
-accs-ws-1000-1,Westin Hotel,1,down
-accs-sw-400-1,Stetson West RM 400,2,up
-accs-spe-400m6-1,Speare East RM 400m6,2,up
-accs-ev-900m2-1,East Village RM 900m2,2,up
-accs-sheraton-fl17,Sheraton Floor 17,2,up
-accs-ri-cdf-1,Richards Hall CDF - NU190177,2,up
-accs-wve-015-1,West Village E RM 015,2,up
-accs-msc-gn-113-1,Nahant Bunker-113,2,up
-accs-ws-1900-1,Westin Hotel - 3rd Floor,1,down
-accs-ise-436-1,ISE Complex RM 436,2,up
-accs-ha-011-1,Hayden Hall RM 011,2,up
-accs-wvg-500-1,West Village G RM 500,2,up
-accs-mgt-ri-37-r7r5-1,Richards DataCenter RM 40 - NU,2,up
-accs-ws-newb-1,Westin Hotel - 2nd Floor Newbury Conference RM,1,down
-accs-sjc-130c-1,San Jose RM 130C,2,up
-accs-wvf-400-2,West Village F RM 400,2,up
-accs-dvb-315-1,Davenport B RM 315,2,up
-accs-msc-gn-124-1,Nahant Bunker-113,2,up
-accs-inve-578-1,International Village East RM 578,2,up
-accs-ss-106-1,St. Stephens St. RM 106,2,up
-accs-london-mdf-1,London RM XXXX,2,up
-accs-ws-sfshire-1,Westin Hotel - 3rd Floor Staffordshire Conf RM,1,down
-accs-spw-300m5-1,Speare West RM 300m5,2,up
-accs-hs-200a-2,Hastings RM 200a,2,up
-accs-sc-100-1,Stetson Center RM 100,2,up
-accs-wvan-600-1,West Village A North Room 600,2,up
-accs-wvf-102av-1,West Village F RM 102,2,up
-accs-bl-147-308-1,Burlington-147 RM 308,2,up
-accs-se-212-1,Stetson East RM 212,2,up
-accs-sh-215av-1,Shillman Hall RM 215,2,up
-accs-ev-200m2-1,East Village RM 200m2,2,up
-accs-101bv-375-1,Belvidere RM 375,2,up
-accs-ri-318-1,Richards Hall RM 318,2,up
-accs-wvan-1200-1,West Village A North Room 1200,2,up
-accs-ri-44-test-7,Richards CDF RM 37,1,down
-accs-mu-100m7-1,Mugar Hall RM 100m7,2,up
-accs-wvas-500-1,West Village A South Room 500,2,up
-accs-rb-208-1,Robinson Hall RM 208,2,up
-accs-cf-5,,2,up
-accs-ke-000-1,Kennedy Hall RM 000,2,up
-accs-london-idf-b-1,London RM XXXX,2,up
-accs-sheraton-fl27,Sheraton Floor 27,2,up
-accs-fr-206-3,Forsyth RM 206,2,up
-accs-msc-100n1-1,Marine Science Center RM 100n1,2,up
-accs-london-mdf-server-1,London RM XXXX,2,up
-accs-to-46014-1,Toronto - 100 King St. West,2,up
-accs-cdf-ri-test-1,Richards Hall CDF RM 037,2,up
-accs-ricdf-mgt-2,Richards Hall CDF RM 037,2,up
-accs-ec-320-1,Egan Center RM 320,2,up
-accs-wvg-200-1,West Village G RM 200,2,up
-accs-216mav-p4327-1,216 Mass Ave RM307C,2,up
-accs-sl-148-2,Snell Library RM 148,2,up
-accs-sea-1xx-temp-1-backup,,2,up
-accs-cu-014-1,Cushing Hall RM 014,2,up
-accs-fr-206-4,Forsyth RM 206,2,up
-accs-sl-cdf-1,Snell Library CDF,2,up
-accs-ise-063-1,ISE Complex RM 063,2,up
-accs-ri-37-farpoint-1,Richards Hall CDF RM 037,2,up
-accs-ws-2500-1,Westin Hotel,1,down
-accs-ca-022-1,Cahners Hall RM 022,2,up
-accs-sl-68-1,Snell Library RM 68,2,up
-accs-101bv-275-1,Belvidere RM 275,2,up
-accs-ise-375a-1,ISE Complex RM 375A,2,up
-accs-sea-1xx-temp-1,Seattle 225 FL 1,2,up
-accs-ri-44-test-5,Richards Hall RM 118,2,up
-accs-ws-2100-1,Westin Hotel,1,down
-accs-cf-4,,2,up
-accs-wi-100-1,Willis Hall RM 100,2,up
-accs-mgh-mda-r6c27-1,MGHPCC,1,down
-accs-me-166a-1,Meserve RM 166a,2,up
-accs-sl-79-1,Snell Library RM 79,2,up
-accs-sheraton-fl16,Sheraton Floor 16,2,up
-accs-ws-1700-1,Westin Hotel - 3rd Floor,1,down
-accs-101bv-118-1,Belvidere RM 118,2,up
-accs-cp-garage-temp-1,Columbus Garage,2,up
-accs-wvc-112-1,West Village C Room 112,2,up
-accs-msc-gn-2b-1,Marine Science Center Bunker-2b,2,up
-accs-rp-200-1,Renaissance Park RM 200,2,up
-accs-ha-407-1,Hayden Hall RM 407,2,up
-accs-spw-100m5-2,Speare West RM 100m5,2,up
-accs-kr-220b-1,Kerr Hall RM 220b,2,up
-accs-sheraton-fl24,Sheraton Floor 24,2,up
-accs-ry-411-1,Ryder Hall RM 411,2,up
-accs-mgh-podc-r3c7-1,MGHPCC,1,down
-accs-sl-368-1,Snell Library RM 368,2,up
-accs-bk-142-1,Behrakis RM 142,2,up
-accs-ev-000m2-1,East Village RM 000M2,2,up
-accs-sn-212-1,Snell Engineering RM 212,2,up
-accs-wvh-020-1,West Village H RM 020,2,up
-accs-el-404a-1,Ell Hall RM 404a,2,up
-accs-mu-317-1,Mugar Hall RM 317,2,up
-accs-ke-010-1,Kennedy Hall RM 010,2,up
-accs-ev-900m2-2,East Village RM 900m2,2,up
-accs-142hm-000-1,142-148 Hemenway RM 000,2,up
-accs-mgh-poda-r3c9-1,MGHPCC,1,down
-accs-ws-1300-2,Westin,1,down
-accs-wve-500m6-1,West Village E RM 500m6,2,up
-accs-271hu-236-1,271 Huntington Ave RM 236,2,up
-accs-cb-cage-1,Cabot Center - Cage Area,2,up
-accs-ws-2400-2,Westin,1,down
-accs-sw-300-1,Stetson West RM 300,2,up
-accs-sheraton-fl6,Sheraton Floor 6,2,up
-accs-wve-800m8-1,West Village E RM 800m8,2,up
-accs-cv-214-1,Coventry RM 214,2,up
-accs-dg-133-1,Dodge Hall RM 133,2,up
-accs-sheraton-fl11,Sheraton Floor 11,2,up
-accs-ha-011-2,Hayden Hall RM 011,2,up
-accs-sheraton-fl15,Sheraton Floor 15,2,up
-accs-sb-426-1,Squashbusters RM 426,2,up
-accs-ws-1200-1,Westin Hotel,1,down
-accs-ha-105a-1,Hayden Hall RM 105,2,up
-accs-el-003a-1,Ell Hall RM 003a,2,up
-accs-sh-335av-1,Shillman Hall RM 335,2,up
-accs-spe-300m6-1,Speare East RM 300m6,2,up
-accs-ec-118-1,Egan Center RM 118,2,up
-accs-337hu-000-2,337 Huntington RM 000,2,up
-accs-ricdf-mgt-3,Richards Hall CDF RM 037,2,up
-accs-md-admin-1,Midtown Hotel,2,up
-accs-bl-vcc-130b-2,Burlington-VCC RM 130b,2,up
-accs-wvh-102-1,West Village H RM 102,2,up
-accs-dg-465-1,Dodge Hall RM 465,2,up
-accs-ws-200-2,Westin,1,down
-accs-ws-1600-1,Westin Hotel,1,down
-accs-md-h-1,Midtown Hotel,2,up
-accs-sl-113-1,Snell Library RM 113,2,up
-accs-ws-2000-1,Westin Hotel - 3rd Floor,1,down
-accs-sh-220av-1,Shillman Hall RM 220,2,up
-accs-spw-400m5-1,Speare West RM 400m5,2,up
-accs-clt-1135-1,Charlotte-NC RM 1135,2,up
-accs-wvh-1604-1,West Village H RM 1604,2,up
-accs-ri-118a-1,Richards Hall RM 118,2,up
-accs-ise-336-1,ISE Complex RM 336,2,up
-accs-sheraton-fl19,Sheraton Floor 19,2,up
-accs-ri-44-test-2,Richards Hall Lab RM 44,2,up
-accs-ev-1500m2-1,East Village RM 1500m2,2,up
+﻿Code,Description,Device,Status
+BV,Belvidere RM 118,accs-101bv-118-1,up
+BV,Belvidere RM 175,accs-101bv-175-1,up
+BV,Belvidere RM 218,accs-101bv-218-1,up
+BV,Belvidere RM 275,accs-101bv-275-1,up
+BV,Belvidere RM 318,accs-101bv-318-1,up
+BV,Belvidere RM 375,accs-101bv-375-1,up
+BV,Belvidere RM 418,accs-101bv-418-1,up
+BV,Belvidere RM 475,accs-101bv-475-1,up
+AC,Asian Center RM 001,accs-109hm-001-1,up
+,St. Stephens St. RM 010,accs-122ss-010-1,up
+142,142-148 Hemenway RM 000,accs-142hm-000-1,up
+LF,Loftman Hall RM 021,accs-157he-021-1,up
+177,177 Huntington RM 1015,accs-177hu-1015-1,up
+177,177 Huntington RM 1015,accs-177hu-1015-2,up
+177,177 Huntington RM 1213,accs-177hu-1213-1,up
+177,177 Huntington RM 211,accs-177hu-211-1,up
+177,177 Huntington RM 211,accs-177hu-2214-1,up
+177,177 Huntington RM 307,accs-177hu-307av-1,up
+177,177 Huntington RM 411,accs-177hu-411-1,up
+177,177 Huntington RM 611,accs-177hu-611-1,up
+177,177 Huntington RM 813,accs-177hu-813-1,up
+RI,Richards Hall RM020,accs-20RI-EIP-VLAN-Test,down
+RI,Richards Hall RM020,accs-20RI-test-1,up
+216,216 Mass Ave RM 100TR,accs-216mav-100tr-1,up
+216,216 Mass Ave RM213b,accs-216mav-213b-1,up
+216,216 Mass Ave RM228c,accs-216mav-228c-1,up
+216,216 Mass Ave RM307C,accs-216mav-307b-1,up
+216,216 Mass Ave RM338C,accs-216mav-338c-1,up
+216,216 Mass Ave RM307C,accs-216mav-p4327-1,up
+236,236 Huntington RM 529,accs-236hu-529-1,up
+271,271 Huntington Ave RM 236,accs-271hu-236-1,up
+300,300 Mass Ave,accs-300mav-000-1,up
+319,319 Huntington RM 000,accs-319hu-000-1,up
+337,337 Huntington RM 000,accs-337hu-000-1,up
+337,337 Huntington RM 000,accs-337hu-000-2,up
+407,407 Huntington,accs-407hu-1,up
+768,768 Columbus Ave. RM 001,accs-768cp-001-1,up
+780,780 Columbus Place RM 780,accs-780cp-1,up
+BD,Broad St RM 266,accs-bd-266-1,up
+BD,Broad St RM 266,accs-bd-266-2,up
+BK,Behrakis RM 017a,accs-bk-017a-1,up
+BK,Behrakis RM 053,accs-bk-053-1,up
+BK,Behrakis RM 142,accs-bk-142-1,up
+BK,Behrakis RM 242,accs-bk-242-1,up
+BK,Behrakis RM 342,accs-bk-342-1,up
+BK,Behrakis RM 442,accs-bk-442-1,up
+BK,Behrakis RM 542,accs-bk-542-1,up
+BK,Behrakis RM 642,accs-bk-642-1,up
+BK,Behrakis RM 742,accs-bk-742-1,up
+BL,Burlington-147 RM 105,accs-bl-147-105-1,up
+BL,Burlington-147 RM 205,accs-bl-147-205-1,up
+BL,Burlington-147 RM 308,accs-bl-147-308-1,up
+,,accs-bl-dc-1,up
+,,accs-bl-dc-2,up
+BL,Burlington-Elliot RM 123,accs-bl-elliot-123-1,up
+BL,Burlington-Elliot RM 222,accs-bl-elliot-222-1,up
+BL,Burlington Kostas RM 292,accs-bl-kostas-292-1,up
+BL,Burlington-Library RM 007,accs-bl-library-007-1,up
+BL,Burlington-VCC RM 130b,accs-bl-vcc-130b-1,up
+BL,Burlington-VCC RM 130b,accs-bl-vcc-130b-2,up
+BU,Burstein Hall RM 106,accs-bu-000-1,down
+CA,Cahners Hall RM 022,accs-ca-022-1,up
+CB,Cabot Center RM 166,accs-cb-166-1,up
+CB,Cabot Center RM 207,accs-cb-207-1,up
+CB,Cabot Center - Cage Area,accs-cb-cage-1,up
+CB,Cabot Center Cage,accs-cb-cage-2,up
+RI,Richards Hall CDF RM 037,accs-cdf-ri-test-1,up
+,,accs-cf-1,up
+,,accs-cf-2,up
+,,accs-cf-3,up
+,,accs-cf-4,up
+,,accs-cf-5,up
+,,accs-cf-6,up
+,,accs-cf-es-1,up
+CG,Cargill Hall RM 085,accs-cg-085-1,up
+CH,Churchill Hall RM 327a,accs-ch-327a-1,up
+CH,Churchill Hall RM 327a,accs-ch-327a-2,up
+CLT,Charlotte-NC RM 1111,accs-clt-1111av-1,up
+CLT,Charlotte-NC RM 1135,accs-clt-1135-1,up
+CN,Cullinane Hall RM 100a,accs-cn-100a-1,up
+CP,Columbus Place RM 349,accs-cp-349-1,up
+CP,Columbus Place RM 449,accs-cp-449-1,up
+CP,Columbus Place RM 549,accs-cp-549-1,up
+CP,Columbus Place RM 600,accs-cp-600-1,up
+CP,Columbus Place RM 84,accs-cp-84-1,up
+CPG,Columbus Garage,accs-cp-garage-temp-1,up
+CSC,Curry Student Center RM 240,accs-csc-238-1,up
+CSC,Curry Student Center RM 440,accs-csc-438-1,up
+CSC,Curry Student Center RM 001,accs-csc-anc-1,up
+CU,Cushing Hall RM 014,accs-cu-014-1,up
+CV,Coventry RM 214,accs-cv-214-1,up
+CV,Coventry RM 514,accs-cv-514-1,up
+DA,Dana Center Hall RM 134a,accs-da-134a-1,up
+DA,Dana Center Hall RM 134a,accs-da-134a-2,up
+DA,Dana Center Hall RM 229,accs-da-229-1,up
+DA,Dana Center Hall RM 229,accs-da-229-2,up
+DA,Dana Hall RM 242,accs-da-242-1,up
+DA,Dana Center Hall RM 434,accs-da-434-1,up
+DA,Dana Center Hall RM 434,accs-da-434-2,up
+DE,Dedham RM 221,accs-de-221-1,up
+DG,Dodge Hall RM 133,accs-dg-133-1,up
+DG,Dodge Hall RM 165,accs-dg-165-1,up
+DG,Dodge Hall RM 433,accs-dg-433-1,up
+DG,Dodge Hall RM 465,accs-dg-465-1,up
+DK,Dockser Hall RM 204,accs-dk-204-1,up
+DK,Dockser Hall RM 204,accs-dk-204-2,up
+DK,Dockser Hall RM 204,accs-dk-204-3,up
+DVA,Davenport A RM 100,accs-dva-100-1,up
+DVA,Davenport A RM 300,accs-dva-300-1,up
+DVA,Davenport A RM 500,accs-dva-500-1,up
+DVB,Davenport B RM 115,accs-dvb-115-1,up
+DVB,Davenport B RM 315,accs-dvb-315-1,up
+DVB,Davenport B RM 515,accs-dvb-515-1,up
+EC,Egan Center RM 118,accs-ec-118-1,up
+EC,Egan Center RM 220,accs-ec-220-1,up
+EC,Egan Center RM 220,accs-ec-220-2,up
+EC,Egan Center RM 320,accs-ec-320-1,up
+EC,Egan Center RM 420,accs-ec-420-1,up
+EL,Ell Hall RM 003a,accs-el-003a-1,up
+EL,Ell Hall RM 404a,accs-el-404a-1,up
+EV,East Village RM 000M2,accs-ev-000m2-1,up
+EV,East Village RM 012a,accs-ev-012a-1,up
+EV,East Village RM 102c,accs-ev-102c-1,up
+EV,East Village RM 1500m2,accs-ev-1500m2-1,up
+EV,East Village RM 1500m2,accs-ev-1500m2-2,up
+EV,East Village RM 1714,accs-ev-1714-1,up
+EV,East Village RM 200m2,accs-ev-200m2-1,up
+EV,East Village RM 300m2,accs-ev-300m2-1,up
+EV,East Village RM 300m2,accs-ev-300m2-2,up
+EV,East Village RM 900m2,accs-ev-900m2-1,up
+EV,East Village RM 900m2,accs-ev-900m2-2,up
+FC,Fenway Center RM Basement,accs-fenway-1,up
+FR,Forsyth RM 005,accs-fr-005-1,up
+FR,Forsyth RM 206,accs-fr-206-1,up
+FR,Forsyth RM 206,accs-fr-206-2,up
+FR,Forsyth RM 206,accs-fr-206-3,up
+FR,Forsyth RM 206,accs-fr-206-4,up
+GG,Gainsborough Garage RM 001,accs-gg-001-1,up
+HA,Hayden Hall RM 005,accs-ha-005-1,up
+HA,Hayden Hall RM 011,accs-ha-011-1,up
+HA,Hayden Hall RM 011,accs-ha-011-2,up
+HA,Hayden Hall RM 011,accs-ha-011-3,up
+HA,Hayden Hall RM 105,accs-ha-105a-1,up
+HA,Hayden Hall RM 407,accs-ha-407-1,up
+HBH,Henderson Boathouse RM 109,accs-hbh-109-1,up
+HF,Hillel-Frager RM BSMT,accs-hf-bsmt-1,up
+HO,Holmes RM 113,accs-ho-113-1,up
+HO,Holmes RM 113,accs-ho-113-2,up
+HO,Holmes RM 414,accs-ho-414-1,up
+HS,Hastings RM 200,accs-hs-200a-1,up
+HS,Hastings RM 200a,accs-hs-200a-2,up
+HS,Hastings RM 744,accs-hs-744-1,up
+HT,Hurtig Hall RM 126,accs-ht-126-1,up
+HT,Hurtig Hall RM 329,accs-ht-329-1,up
+INVC,International Village Center RM 031,accs-invc-031-1,up
+INVC,International Village East RM 1278,accs-inve-1278-1,up
+INVC,International Village East RM 1978,accs-inve-1978-1,up
+INVC,International Village East RM 478,accs-inve-478-1,up
+INVC,International Village East RM 578,accs-inve-578-1,up
+INVC,International Village East RM 878,accs-inve-878-1,up
+INVO,INV office room 208,accs-invo-208av-1,up
+INVC,International Village Office RM 402,accs-invo-402-1,up
+INVC,International Village West RM 1113,accs-invw-1113-1,up
+INVC,International Village West RM 1613,accs-invw-1613-1,up
+INVC,International Village West Penthouse,accs-invw-2000-1,up
+INVC,International Village West RM 313,accs-invw-313-1,up
+INVC,International Village West RM 513,accs-invw-513-1,up
+INVC,International Village West RM 813,accs-invw-813-1,up
+ISEC,ISE Complex RM 003,accs-ise-003-1,up
+ISEC,ISE Complex RM 003,accs-ise-003-2,up
+ISEC,ISE Complex RM 063,accs-ise-063-1,up
+ISEC,ISE Complex RM 063,accs-ise-063-2,up
+ISEC,ISE Complex RM 106,accs-ise-106-1,up
+ISEC,ISE Complex RM 106,accs-ise-106-2,up
+ISEC,ISE Complex RM 145,accs-ise-145-1,up
+ISEC,ISE Complex RM 236,accs-ise-236-1,up
+ISEC,ISE Complex RM 275A,accs-ise-275a-1,up
+ISEC,ISE Complex RM 336,accs-ise-336-1,up
+ISEC,ISE Complex RM 336,accs-ise-336-2,up
+ISEC,ISE Complex RM 375A,accs-ise-375a-1,up
+ISEC,ISE Complex RM 436,accs-ise-436-1,up
+ISEC,ISE Complex RM 475A,accs-ise-475a-1,up
+ISEC,ISE Complex RM 536,accs-ise-536-1,up
+ISEC,ISE Complex RM 575A,accs-ise-575a-1,up
+ISEC,ISE Complex RM 636,accs-ise-636-1,up
+ISEC,ISE Complex RM 675A,accs-ise-675a-1,up
+ISEC,ISE Complex RM 675A,accs-ise-675a-2,up
+KA,Kariotis RM 003,accs-ka-003-1,up
+KDY,Kennedy Hall RM 000,accs-ke-000-1,up
+KDY,Kennedy Hall RM 010,accs-ke-010-1,up
+KN,Knowles Hall RM 138,accs-kn-138-1,up
+KN,Knowles Hall RM 326,accs-kn-326-1,up
+KH,Kerr Hall RM 220b,accs-kr-220b-1,up
+KH,Kerr Hall Room 326,accs-kr-326-1,up
+LA,Lake Hall RM 052,accs-la-052-1,up
+LA,Lake Hall RM 452,accs-la-453-1,up
+LT,Latino center RM 221,accs-lc-221-1,up
+LH,Light Hall RM 010,accs-li-010-1,up
+LON,London RM XXXX,accs-london-idf-a-1,up
+LON,London RM XXXX,accs-london-idf-b-1,up
+LON,London RM XXXX,accs-london-idf-c-1,up
+LON,London RM XXXX,accs-london-mdf-1,up
+LON,London RM XXXX,accs-london-mdf-server-1,up
+MA,Matthews Arena RM 050,accs-ma-050-1,up
+MA,Matthews Arena RM 091,accs-ma-091-1,up
+MA,Matthews Arena RM 125,accs-ma-125-1,up
+MA,Matthews Arena RM 300,accs-ma-300-1,up
+MC,Marino Center Pop-up,accs-mc-152-1,up
+MC,Marino Center RM 166,accs-mc-166-1,up
+MID,Midtown Hotel,accs-md-admin-1,up
+MID,Midtown Hotel,accs-md-h-1,up
+MID,Midtown Hotel,accs-md-mdf-1,up
+ME,Meserve RM 166a,accs-me-166a-1,up
+ME,Meserve RM 436a,accs-me-436a-1,up
+MGHPCC,MGHPCC,accs-mgh-mda-r6c25-1,down
+MGHPCC,MGHPCC,accs-mgh-mda-r6c27-1,down
+MGHPCC,MGHPCC,accs-mgh-poda-r3c11-1,down
+MGHPCC,MGHPCC,accs-mgh-poda-r3c12-1,down
+MGHPCC,MGHPCC,accs-mgh-poda-r3c9-1,down
+MGHPCC,MGHPCC,accs-mgh-podc-r3c13-1,down
+MGHPCC,MGHPCC,accs-mgh-podc-r3c5-1,down
+MGHPCC,MGHPCC,accs-mgh-podc-r3c7-1,down
+MR,Marlborough DataCenter Colo 12 R2R3,accs-mgt-mr-c12-r2r3-1,up
+RI,Richards DataCenter RM 40 - Row 5 Rack 0,accs-mgt-ri-37-r5r0-1,up
+RI,Richards DataCenter RM 40 - NU,accs-mgt-ri-37-r7r5-1,up
+MH,Melvin Hall RM 128,accs-mh-128-1,up
+MSC,Marine Science Center RM 100n1,accs-msc-100n1-1,up
+,Nahant Bunker-113,accs-msc-gn-113-1,up
+,Nahant Bunker-113,accs-msc-gn-124-1,up
+MSC,Marine Science Center Bunker-2b,accs-msc-gn-2b-1,up
+MSC,Marine Science Center Pump House,accs-msc-pumphouse-1,up
+MSC,Marine Science Center Trailer 1,accs-msc-trailer1-1,up
+MSC,Marine Science Center Trailer 2,accs-msc-trailer2-1,up
+MT,Marbury Terrace AAMARP,accs-mt-aamarp-1,up
+MT,Marbury Terrace RM Office,accs-mt-office-1,up
+MU,Mugar Hall RM 100m7,accs-mu-100m7-1,up
+MU,Mugar Hall RM 100m7,accs-mu-100m7-2,up
+MU,Mugar Hall RM 219b,accs-mu-219b-1,up
+MU,Mugar Hall RM 317,accs-mu-317-1,up
+MU,Mugar Hall RM 317,accs-mu-317-2,up
+NI,Nightingale Hall RM 131,accs-ni-131-1,up
+NI,Nightingale Hall RM 424,accs-ni-424-1,up
+NI,Nightingale CDF RM 028,accs-ni-cdf-1,up
+NI,Nightingale CDF RM 028,accs-nicdf-mgt-1,up
+RB,Robinson Hall RM 208,accs-rb-208-1,up
+RB,Robinson Hall RM 208,accs-rb-208-2,up
+RG,Ruggles RM 100,accs-rg-1,up
+RI,Richards Hall RM 118,accs-ri-118a-1,up
+RI,Richards Hall RM 118,accs-ri-118a-2,up
+RI,Richards Hall RM 118,accs-ri-118a-3,up
+RI,Richards Hall RM 218,accs-ri-218-1,up
+RI,Richards Hall RM 318,accs-ri-318-1,up
+RI,Richards Hall CDF RM 037,accs-ri-37-farpoint-1,up
+RI,Richards Hall Lab RM 44,accs-ri-44-test-1,up
+RI,Richards Hall Lab RM 44,accs-ri-44-test-2,up
+RI,Richards Hall Lab RM 44,accs-ri-44-test-4,up
+RI,Richards Hall RM 118,accs-ri-44-test-5,up
+RI,Richards CDF RM 37,accs-ri-44-test-7,down
+RI,Richards Hall RM 451,accs-ri-451-1,up
+RI,Richards Hall CDF - NU190177,accs-ri-cdf-1,up
+RI,Richards Hall CDF RM 037,accs-ricdf-mgt-1,up
+RI,Richards Hall CDF RM 037,accs-ricdf-mgt-2,up
+RI,Richards Hall CDF RM 037,accs-ricdf-mgt-3,up
+RX,Portland Roux Institute,accs-roux-123-1,up
+RPG,Renaissance Park RM 119,accs-rp-119-1,up
+RPG,Renaissance Park RM 119,accs-rp-119-2,up
+RPG,Renaissance Park RM 160h2 - EOCC,accs-rp-160h2-1,up
+RPG,Renaissance Park RM 200,accs-rp-200-1,up
+RPG,Renaissance Park RM 300,accs-rp-300-1,up
+RPG,Renaissance Park RM 400,accs-rp-400-1,up
+RPG,Renaissance Park RM 900,accs-rp-900-1,up
+RPG,Renaissance Park Garage RM 001,accs-rpg-001-1,up
+RU,Rubenstein Hall RM 013,accs-ru-013-1,up
+RY,Ryder Hall RM 146,accs-ry-146-1,up
+RY,Ryder Hall RM 146,accs-ry-146-2,up
+RY,Ryder Hall RM 341,accs-ry-341-1,up
+RY,Ryder Hall RM 341,accs-ry-341-2,up
+RY,Ryder Hall RM 411,accs-ry-411-1,up
+SB,Squashbusters RM 426,accs-sb-426-1,up
+SC,Stetson Center RM 100,accs-sc-100-1,up
+SC,Stetson Center RM 200,accs-sc-200-1,up
+SC,Stetson Center RM 300,accs-sc-300-1,up
+SC,Stetson Center RM 400,accs-sc-400-1,up
+SE,Stetson East RM 112,accs-se-112-1,up
+SE,Stetson East RM 212,accs-se-212-1,up
+SE,Stetson East RM 312,accs-se-312-1,up
+SE,Stetson East RM 412,accs-se-412-1,up
+SEA,Seattle RM 100,accs-sea-100-1,up
+SEA,Seattle RM 115,accs-sea-115-1,up
+SEA,Seattle 225 FL 1,accs-sea-1xx-temp-1,up
+,,accs-sea-1xx-temp-1-backup,up
+SEA,Seattle 225 Terry Ave,accs-sea-225-1,up
+SE,Stetson East CDF - NU187381,accs-se-cdf-1,up
+SH,Shillman Hall RM 105,accs-sh-105av-1,up
+SH,Shillman Hall RM 135,accs-sh-135av-1,up
+SH,Shillman Hall RM 210,accs-sh-210av-1,up
+SH,Shillman Hall RM 215,accs-sh-215av-1,up
+SH,Shillman Hall RM 220,accs-sh-220av-1,up
+SH,Shillman RM 243,accs-sh-243-1,up
+SH,Shillman Hall RM 305,accs-sh-305av-1,up
+SH,Shillman Hall RM 315,accs-sh-315av-1,up
+SH,Shillman Hall RM 325,accs-sh-325av-1,up
+SH,Shillman Hall RM 335,accs-sh-335av-1,up
+SH,Shillman Hall RM 415,accs-sh-415av-1,up
+SH,Shillman Hall RM 420,accs-sh-420av-1,down
+SH,Shillman Hall RM 425,accs-sh-425av-1,up
+SHER,Sheraton Floor 10,accs-sheraton-fl10,up
+SHER,Sheraton Floor 11,accs-sheraton-fl11,up
+SHER,Sheraton Floor 12,accs-sheraton-fl12,up
+SHER,Sheraton Floor 13,accs-sheraton-fl13,up
+SHER,Sheraton Floor 14,accs-sheraton-fl14,up
+SHER,Sheraton Floor 15,accs-sheraton-fl15,up
+SHER,Sheraton Floor 16,accs-sheraton-fl16,up
+SHER,Sheraton Floor 17,accs-sheraton-fl17,up
+SHER,Sheraton Floor 18,accs-sheraton-fl18,up
+SHER,Sheraton Floor 19,accs-sheraton-fl19,up
+SHER,Sheraton Floor 20,accs-sheraton-fl20,up
+SHER,Sheraton Floor 21,accs-sheraton-fl21,up
+SHER,Sheraton Floor 22,accs-sheraton-fl22,up
+SHER,Sheraton Floor 23,accs-sheraton-fl23,up
+SHER,Sheraton Floor 24,accs-sheraton-fl24,up
+SHER,Sheraton Floor 25,accs-sheraton-fl25,up
+SHER,Sheraton Floor 26,accs-sheraton-fl26,up
+SHER,Sheraton Floor 27,accs-sheraton-fl27,up
+SHER,Sheraton Floor 28,accs-sheraton-fl28,up
+SHER,Sheraton Floor 29,accs-sheraton-fl29,up
+SHER,Sheraton Floor 5,accs-sheraton-fl5,up
+SHER,Sheraton Floor 6,accs-sheraton-fl6,up
+SHER,Sheraton Floor 7,accs-sheraton-fl7,up
+SHER,Sheraton Floor 8,accs-sheraton-fl8,up
+SHER,Sheraton Floor 9,accs-sheraton-fl9,up
+SJC,San Jose RM XXXX,accs-sjc-1008-1,up
+SJC,San Jose RM 130C,accs-sjc-130c-1,up
+SL,Snell Library RM 113,accs-sl-113-1,up
+SL,Snell Library RM 148,accs-sl-148-1,up
+SL,Snell Library RM 148,accs-sl-148-2,up
+SL,Snell Library RM 230,accs-sl-230-1,up
+SL,Snell Library RM 230,accs-sl-230-2,up
+SL,Snell Library RM 268,accs-sl-268-1,up
+SL,Snell Library RM 320,accs-sl-320-1,up
+SL,Snell Library RM 368,accs-sl-368-1,up
+SL,Snell Library RM 68,accs-sl-68-1,up
+SL,Snell Library RM 79,accs-sl-79-1,up
+SL,Snell Library CDF,accs-sl-cdf-1,up
+SL,Snell Library CDF RM 66,accs-slcdf-mgt-1,up
+SM,Smith Hall RM 002,accs-sm-002-1,up
+SM,Smith Hall West RM 100d1,accs-sm-100d1-1,up
+SM,Smith Hall East RM 100d3,accs-sm-100d3-1,up
+SN,Snell Engineering RM 112,accs-sn-112-1,up
+SN,Snell Engineering RM 212,accs-sn-212-1,up
+SN,Snell Engineering RM 280,accs-sn-280-1,up
+SN,Snell Engineering RM 312,accs-sn-312-1,up
+SN,Snell Engineering RM 412,accs-sn-412-1,up
+SP,Speare East RM 100m6,accs-spe-100m6-1,up
+SP,Speare East RM 100m6,accs-spe-100m6-2,up
+SP,Speare East RM 200m6,accs-spe-200m6-1,up
+SP,Speare East RM 300m6,accs-spe-300m6-1,up
+SP,Speare East RM 400m6,accs-spe-400m6-1,up
+SP,Speare West RM 100m5,accs-spw-100m5-1,up
+SP,Speare West RM 100m5,accs-spw-100m5-2,up
+SP,Speare West RM 200m5,accs-spw-200m5-1,up
+SP,Speare West RM 300m5,accs-spw-300m5-1,up
+SP,Speare West RM 400m5,accs-spw-400m5-1,up
+,St. Stephens St. RM 006d1,accs-ss-006d1-1,up
+,St. Stephens St. RM 011,accs-ss-011-1,up
+,St. Stephens St. RM 106,accs-ss-106-1,up
+ST,Stearns Hall RM 121,accs-st-121-1,up
+ST,Stearns Hall RM 406,accs-st-406-1,up
+SE,Stetson East CDF,accs-stecdf-mgt-1,up
+SW,Stetson West Basement RM 021,accs-stw-021-1,up
+SW,Stetson West RM 100,accs-sw-100-1,up
+SW,Stetson West RM 200,accs-sw-200-1,up
+SW,Stetson West RM 300,accs-sw-300-1,up
+SW,Stetson West RM 400,accs-sw-400-1,up
+140,140 The Fenway RM 133,accs-tf-133-1,up
+140,140 The Fenway RM 173A,accs-tf-173a-1,up
+140,140 The Fenway RM 265B,accs-tf-265b-1,up
+140,140 The Fenway RM R312,accs-tf-r312-1,up
+140,140 The Fenway RM r410,accs-tf-r410-1,up
+140,140 The Fenway RM x411,accs-tf-x411-1,up
+TO,Toronto - 100 King St. West,accs-to-46014-1,up
+WH,White Hall RM 214,accs-wh-214-1,up
+WH,White Hall RM 231,accs-wh-231-1,up
+WH,White Hall RM 245,accs-wh-245-1,up
+WI,Willis Hall RM 100,accs-wi-100-1,up
+WI,Willis Hall RM 500,accs-wi-500-1,up
+WS,Westin Hotel,accs-ws-1000-1,down
+WS,Westin,accs-ws-1000-2,down
+WS,Westin Hotel,accs-ws-1100-1,down
+WS,Westin,accs-ws-1100-2,down
+WS,Westin Hotel,accs-ws-1200-1,down
+WS,Westin,accs-ws-1200-2,down
+WS,Westin Hotel,accs-ws-1300-1,down
+WS,Westin,accs-ws-1300-2,down
+WS,Westin Hotel,accs-ws-1400-1,down
+WS,Westin,accs-ws-1400-2,down
+WS,Westin Hotel,accs-ws-1500-1,down
+WS,Westin,accs-ws-1500-2,down
+WS,Westin Hotel,accs-ws-1600-1,down
+WS,Westin,accs-ws-1600-2,down
+WS,Westin Hotel - 3rd Floor,accs-ws-1700-1,down
+WS,Westin,accs-ws-1700-2,down
+WS,Westin Hotel,accs-ws-1800-1,down
+WS,Westin,accs-ws-1800-2,down
+WS,Westin Hotel - 3rd Floor,accs-ws-1900-1,down
+WS,Westin,accs-ws-1900-2,down
+WS,Westin Hotel - 3rd Floor,accs-ws-2000-1,down
+WS,Westin,accs-ws-2000-2,down
+WS,Westin Hotel - 2nd Floor,accs-ws-200-1,down
+WS,Westin,accs-ws-200-2,down
+WS,Westin Hotel,accs-ws-2100-1,down
+WS,Westin,accs-ws-2100-2,down
+WS,Westin Hotel,accs-ws-2200-1,down
+WS,Westin,accs-ws-2200-2,down
+WS,Westin Hotel,accs-ws-2300-1,down
+WS,Westin,accs-ws-2300-2,down
+WS,Westin Hotel,accs-ws-2400-1,down
+WS,Westin,accs-ws-2400-2,down
+WS,Westin Hotel,accs-ws-2500-1,down
+WS,Westin,accs-ws-2500-2,down
+WS,Westin Hotel,accs-ws-2600-1,down
+WS,Westin,accs-ws-2600-2,down
+WS,Westin Hotel - 3rd Floor,accs-ws-300-1,down
+WS,Westin,accs-ws-300-2,down
+WS,Westin Hotel - 3rd Floor,accs-ws-500-1,down
+WS,Westin,accs-ws-500-2,down
+WS,Westin Hotel - 3rd Floor Essex Center Conf RM,accs-ws-essex-1,down
+WS,Westin Hotel - 3rd Floor,accs-ws-essex-sth-1,down
+WS,Westin Hotel - 2nd Floor Newbury Conference RM,accs-ws-newb-1,down
+WS,Westin Hotel - 3rd Floor Staffordshire Conf RM,accs-ws-sfshire-1,down
+WS,Westin Hotel - 3rd Floor St George A Conf RM,accs-ws-stga-1,down
+WVA,West Village A North Room 110,accs-wvan-110-1,up
+WVA,West Village A North Room 1200,accs-wvan-1200-1,up
+WVA,West Village A North Room 300,accs-wvan-300-1,up
+WVA,West Village A North Room 600,accs-wvan-600-1,up
+WVA,West Village A North Room 900,accs-wvan-900-1,up
+WVA,West Village A South Room 300,accs-wvas-300-1,up
+WVA,West Village A South Room 500,accs-wvas-500-1,up
+WVB,West Village B 100-1,accs-wvb-100-1,up
+WVB,West Village B 100-2,accs-wvb-100-2,up
+WVC,West Village C Room 112,accs-wvc-112-1,up
+WVC,West Village C Room 112,accs-wvc-112-2,up
+WVE,West Village E RM 015,accs-wve-015-1,up
+WVE,West Village E RM 500m4,accs-wve-500m4-1,up
+WVE,West Village E RM 500m6,accs-wve-500m6-1,up
+WVE,West Village E RM 800m4,accs-wve-800m4-1,up
+WVE,West Village E RM 800m8,accs-wve-800m8-1,up
+WVF,West Village F RM 044,accs-wvf-044-1,up
+WVF,West Village F RM 102,accs-wvf-102av-1,up
+WVF,West Village F Media RM 102,accs-wvf-170a-1,up
+WVF,West Village F RM 400,accs-wvf-400-1,up
+WVF,West Village F RM 400,accs-wvf-400-2,up
+WVG,West Village G RM 200,accs-wvg-200-1,up
+WVG,West Village G RM 500,accs-wvg-500-1,up
+WVH,West Village H RM 020,accs-wvh-020-1,up
+WVH,West Village H RM 102,accs-wvh-102-1,up
+WVH,West Village H RM 1604,accs-wvh-1604-1,up
+WVH,West Village H RM 1604,accs-wvh-1604-2,up
+WVH,West Village H RM 206,accs-wvh-206-1,up
+WVH,West Village H RM 304,accs-wvh-304-1,up
