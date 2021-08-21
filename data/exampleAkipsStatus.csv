@@ -1,16 +1,11 @@
 ﻿Code,Description,Device,Status
-BV,Belvidere RM 118,accs-101bv-118-1,up
-BV,Belvidere RM 175,accs-101bv-175-1,up
-BV,Belvidere RM 218,accs-101bv-218-1,up
-BV,Belvidere RM 275,accs-101bv-275-1,up
-BV,Belvidere RM 318,accs-101bv-318-1,up
-BV,Belvidere RM 375,accs-101bv-375-1,up
-BV,Belvidere RM 418,accs-101bv-418-1,up
-BV,Belvidere RM 475,accs-101bv-475-1,up
-AC,Asian Center RM 001,accs-109hm-001-1,up
-,St. Stephens St. RM 010,accs-122ss-010-1,up
+140,140 The Fenway RM 133,accs-tf-133-1,up
+140,140 The Fenway RM 173A,accs-tf-173a-1,up
+140,140 The Fenway RM 265B,accs-tf-265b-1,up
+140,140 The Fenway RM R312,accs-tf-r312-1,up
+140,140 The Fenway RM r410,accs-tf-r410-1,up
+140,140 The Fenway RM x411,accs-tf-x411-1,up
 142,142-148 Hemenway RM 000,accs-142hm-000-1,up
-LF,Loftman Hall RM 021,accs-157he-021-1,up
 177,177 Huntington RM 1015,accs-177hu-1015-1,up
 177,177 Huntington RM 1015,accs-177hu-1015-2,up
 177,177 Huntington RM 1213,accs-177hu-1213-1,up
@@ -20,8 +15,6 @@ LF,Loftman Hall RM 021,accs-157he-021-1,up
 177,177 Huntington RM 411,accs-177hu-411-1,up
 177,177 Huntington RM 611,accs-177hu-611-1,up
 177,177 Huntington RM 813,accs-177hu-813-1,up
-RI,Richards Hall RM020,accs-20RI-EIP-VLAN-Test,down
-RI,Richards Hall RM020,accs-20RI-test-1,up
 216,216 Mass Ave RM 100TR,accs-216mav-100tr-1,up
 216,216 Mass Ave RM213b,accs-216mav-213b-1,up
 216,216 Mass Ave RM228c,accs-216mav-228c-1,up
@@ -37,6 +30,7 @@ RI,Richards Hall RM020,accs-20RI-test-1,up
 407,407 Huntington,accs-407hu-1,up
 768,768 Columbus Ave. RM 001,accs-768cp-001-1,up
 780,780 Columbus Place RM 780,accs-780cp-1,up
+AC,Asian Center RM 001,accs-109hm-001-1,up
 BD,Broad St RM 266,accs-bd-266-1,up
 BD,Broad St RM 266,accs-bd-266-2,up
 BK,Behrakis RM 017a,accs-bk-017a-1,up
@@ -51,8 +45,6 @@ BK,Behrakis RM 742,accs-bk-742-1,up
 BL,Burlington-147 RM 105,accs-bl-147-105-1,up
 BL,Burlington-147 RM 205,accs-bl-147-205-1,up
 BL,Burlington-147 RM 308,accs-bl-147-308-1,up
-,,accs-bl-dc-1,up
-,,accs-bl-dc-2,up
 BL,Burlington-Elliot RM 123,accs-bl-elliot-123-1,up
 BL,Burlington-Elliot RM 222,accs-bl-elliot-222-1,up
 BL,Burlington Kostas RM 292,accs-bl-kostas-292-1,up
@@ -60,19 +52,19 @@ BL,Burlington-Library RM 007,accs-bl-library-007-1,up
 BL,Burlington-VCC RM 130b,accs-bl-vcc-130b-1,up
 BL,Burlington-VCC RM 130b,accs-bl-vcc-130b-2,up
 BU,Burstein Hall RM 106,accs-bu-000-1,down
+BV,Belvidere RM 118,accs-101bv-118-1,up
+BV,Belvidere RM 175,accs-101bv-175-1,up
+BV,Belvidere RM 218,accs-101bv-218-1,up
+BV,Belvidere RM 275,accs-101bv-275-1,up
+BV,Belvidere RM 318,accs-101bv-318-1,up
+BV,Belvidere RM 375,accs-101bv-375-1,up
+BV,Belvidere RM 418,accs-101bv-418-1,up
+BV,Belvidere RM 475,accs-101bv-475-1,up
 CA,Cahners Hall RM 022,accs-ca-022-1,up
 CB,Cabot Center RM 166,accs-cb-166-1,up
 CB,Cabot Center RM 207,accs-cb-207-1,up
 CB,Cabot Center - Cage Area,accs-cb-cage-1,up
 CB,Cabot Center Cage,accs-cb-cage-2,up
-RI,Richards Hall CDF RM 037,accs-cdf-ri-test-1,up
-,,accs-cf-1,up
-,,accs-cf-2,up
-,,accs-cf-3,up
-,,accs-cf-4,up
-,,accs-cf-5,up
-,,accs-cf-6,up
-,,accs-cf-es-1,up
 CG,Cargill Hall RM 085,accs-cg-085-1,up
 CH,Churchill Hall RM 327a,accs-ch-327a-1,up
 CH,Churchill Hall RM 327a,accs-ch-327a-2,up
@@ -159,7 +151,6 @@ INVC,International Village East RM 1978,accs-inve-1978-1,up
 INVC,International Village East RM 478,accs-inve-478-1,up
 INVC,International Village East RM 578,accs-inve-578-1,up
 INVC,International Village East RM 878,accs-inve-878-1,up
-INVO,INV office room 208,accs-invo-208av-1,up
 INVC,International Village Office RM 402,accs-invo-402-1,up
 INVC,International Village West RM 1113,accs-invw-1113-1,up
 INVC,International Village West RM 1613,accs-invw-1613-1,up
@@ -167,6 +158,7 @@ INVC,International Village West Penthouse,accs-invw-2000-1,up
 INVC,International Village West RM 313,accs-invw-313-1,up
 INVC,International Village West RM 513,accs-invw-513-1,up
 INVC,International Village West RM 813,accs-invw-813-1,up
+INVO,INV office room 208,accs-invo-208av-1,up
 ISEC,ISE Complex RM 003,accs-ise-003-1,up
 ISEC,ISE Complex RM 003,accs-ise-003-2,up
 ISEC,ISE Complex RM 063,accs-ise-063-1,up
@@ -189,28 +181,26 @@ ISEC,ISE Complex RM 675A,accs-ise-675a-2,up
 KA,Kariotis RM 003,accs-ka-003-1,up
 KDY,Kennedy Hall RM 000,accs-ke-000-1,up
 KDY,Kennedy Hall RM 010,accs-ke-010-1,up
-KN,Knowles Hall RM 138,accs-kn-138-1,up
-KN,Knowles Hall RM 326,accs-kn-326-1,up
 KH,Kerr Hall RM 220b,accs-kr-220b-1,up
 KH,Kerr Hall Room 326,accs-kr-326-1,up
+KN,Knowles Hall RM 138,accs-kn-138-1,up
+KN,Knowles Hall RM 326,accs-kn-326-1,up
 LA,Lake Hall RM 052,accs-la-052-1,up
 LA,Lake Hall RM 452,accs-la-453-1,up
-LT,Latino center RM 221,accs-lc-221-1,up
+LF,Loftman Hall RM 021,accs-157he-021-1,up
 LH,Light Hall RM 010,accs-li-010-1,up
 LON,London RM XXXX,accs-london-idf-a-1,up
 LON,London RM XXXX,accs-london-idf-b-1,up
 LON,London RM XXXX,accs-london-idf-c-1,up
 LON,London RM XXXX,accs-london-mdf-1,up
 LON,London RM XXXX,accs-london-mdf-server-1,up
+LT,Latino center RM 221,accs-lc-221-1,up
 MA,Matthews Arena RM 050,accs-ma-050-1,up
 MA,Matthews Arena RM 091,accs-ma-091-1,up
 MA,Matthews Arena RM 125,accs-ma-125-1,up
 MA,Matthews Arena RM 300,accs-ma-300-1,up
 MC,Marino Center Pop-up,accs-mc-152-1,up
 MC,Marino Center RM 166,accs-mc-166-1,up
-MID,Midtown Hotel,accs-md-admin-1,up
-MID,Midtown Hotel,accs-md-h-1,up
-MID,Midtown Hotel,accs-md-mdf-1,up
 ME,Meserve RM 166a,accs-me-166a-1,up
 ME,Meserve RM 436a,accs-me-436a-1,up
 MGHPCC,MGHPCC,accs-mgh-mda-r6c25-1,down
@@ -221,13 +211,12 @@ MGHPCC,MGHPCC,accs-mgh-poda-r3c9-1,down
 MGHPCC,MGHPCC,accs-mgh-podc-r3c13-1,down
 MGHPCC,MGHPCC,accs-mgh-podc-r3c5-1,down
 MGHPCC,MGHPCC,accs-mgh-podc-r3c7-1,down
-MR,Marlborough DataCenter Colo 12 R2R3,accs-mgt-mr-c12-r2r3-1,up
-RI,Richards DataCenter RM 40 - Row 5 Rack 0,accs-mgt-ri-37-r5r0-1,up
-RI,Richards DataCenter RM 40 - NU,accs-mgt-ri-37-r7r5-1,up
 MH,Melvin Hall RM 128,accs-mh-128-1,up
+MID,Midtown Hotel,accs-md-admin-1,up
+MID,Midtown Hotel,accs-md-h-1,up
+MID,Midtown Hotel,accs-md-mdf-1,up
+MR,Marlborough DataCenter Colo 12 R2R3,accs-mgt-mr-c12-r2r3-1,up
 MSC,Marine Science Center RM 100n1,accs-msc-100n1-1,up
-,Nahant Bunker-113,accs-msc-gn-113-1,up
-,Nahant Bunker-113,accs-msc-gn-124-1,up
 MSC,Marine Science Center Bunker-2b,accs-msc-gn-2b-1,up
 MSC,Marine Science Center Pump House,accs-msc-pumphouse-1,up
 MSC,Marine Science Center Trailer 1,accs-msc-trailer1-1,up
@@ -246,6 +235,11 @@ NI,Nightingale CDF RM 028,accs-nicdf-mgt-1,up
 RB,Robinson Hall RM 208,accs-rb-208-1,up
 RB,Robinson Hall RM 208,accs-rb-208-2,up
 RG,Ruggles RM 100,accs-rg-1,up
+RI,Richards Hall RM020,accs-20RI-EIP-VLAN-Test,down
+RI,Richards Hall RM020,accs-20RI-test-1,up
+RI,Richards Hall CDF RM 037,accs-cdf-ri-test-1,up
+RI,Richards DataCenter RM 40 - Row 5 Rack 0,accs-mgt-ri-37-r5r0-1,up
+RI,Richards DataCenter RM 40 - NU,accs-mgt-ri-37-r7r5-1,up
 RI,Richards Hall RM 118,accs-ri-118a-1,up
 RI,Richards Hall RM 118,accs-ri-118a-2,up
 RI,Richards Hall RM 118,accs-ri-118a-3,up
@@ -262,7 +256,6 @@ RI,Richards Hall CDF - NU190177,accs-ri-cdf-1,up
 RI,Richards Hall CDF RM 037,accs-ricdf-mgt-1,up
 RI,Richards Hall CDF RM 037,accs-ricdf-mgt-2,up
 RI,Richards Hall CDF RM 037,accs-ricdf-mgt-3,up
-RX,Portland Roux Institute,accs-roux-123-1,up
 RPG,Renaissance Park RM 119,accs-rp-119-1,up
 RPG,Renaissance Park RM 119,accs-rp-119-2,up
 RPG,Renaissance Park RM 160h2 - EOCC,accs-rp-160h2-1,up
@@ -272,6 +265,7 @@ RPG,Renaissance Park RM 400,accs-rp-400-1,up
 RPG,Renaissance Park RM 900,accs-rp-900-1,up
 RPG,Renaissance Park Garage RM 001,accs-rpg-001-1,up
 RU,Rubenstein Hall RM 013,accs-ru-013-1,up
+RX,Portland Roux Institute,accs-roux-123-1,up
 RY,Ryder Hall RM 146,accs-ry-146-1,up
 RY,Ryder Hall RM 146,accs-ry-146-2,up
 RY,Ryder Hall RM 341,accs-ry-341-1,up
@@ -286,12 +280,12 @@ SE,Stetson East RM 112,accs-se-112-1,up
 SE,Stetson East RM 212,accs-se-212-1,up
 SE,Stetson East RM 312,accs-se-312-1,up
 SE,Stetson East RM 412,accs-se-412-1,up
+SE,Stetson East CDF - NU187381,accs-se-cdf-1,up
+SE,Stetson East CDF,accs-stecdf-mgt-1,up
 SEA,Seattle RM 100,accs-sea-100-1,up
 SEA,Seattle RM 115,accs-sea-115-1,up
 SEA,Seattle 225 FL 1,accs-sea-1xx-temp-1,up
-,,accs-sea-1xx-temp-1-backup,up
 SEA,Seattle 225 Terry Ave,accs-sea-225-1,up
-SE,Stetson East CDF - NU187381,accs-se-cdf-1,up
 SH,Shillman Hall RM 105,accs-sh-105av-1,up
 SH,Shillman Hall RM 135,accs-sh-135av-1,up
 SH,Shillman Hall RM 210,accs-sh-210av-1,up
@@ -362,23 +356,13 @@ SP,Speare West RM 100m5,accs-spw-100m5-2,up
 SP,Speare West RM 200m5,accs-spw-200m5-1,up
 SP,Speare West RM 300m5,accs-spw-300m5-1,up
 SP,Speare West RM 400m5,accs-spw-400m5-1,up
-,St. Stephens St. RM 006d1,accs-ss-006d1-1,up
-,St. Stephens St. RM 011,accs-ss-011-1,up
-,St. Stephens St. RM 106,accs-ss-106-1,up
 ST,Stearns Hall RM 121,accs-st-121-1,up
 ST,Stearns Hall RM 406,accs-st-406-1,up
-SE,Stetson East CDF,accs-stecdf-mgt-1,up
 SW,Stetson West Basement RM 021,accs-stw-021-1,up
 SW,Stetson West RM 100,accs-sw-100-1,up
 SW,Stetson West RM 200,accs-sw-200-1,up
 SW,Stetson West RM 300,accs-sw-300-1,up
 SW,Stetson West RM 400,accs-sw-400-1,up
-140,140 The Fenway RM 133,accs-tf-133-1,up
-140,140 The Fenway RM 173A,accs-tf-173a-1,up
-140,140 The Fenway RM 265B,accs-tf-265b-1,up
-140,140 The Fenway RM R312,accs-tf-r312-1,up
-140,140 The Fenway RM r410,accs-tf-r410-1,up
-140,140 The Fenway RM x411,accs-tf-x411-1,up
 TO,Toronto - 100 King St. West,accs-to-46014-1,up
 WH,White Hall RM 214,accs-wh-214-1,up
 WH,White Hall RM 231,accs-wh-231-1,up
@@ -459,3 +443,19 @@ WVH,West Village H RM 1604,accs-wvh-1604-1,up
 WVH,West Village H RM 1604,accs-wvh-1604-2,up
 WVH,West Village H RM 206,accs-wvh-206-1,up
 WVH,West Village H RM 304,accs-wvh-304-1,up
+,St. Stephens St. RM 010,accs-122ss-010-1,up
+,,accs-bl-dc-1,up
+,,accs-bl-dc-2,up
+,,accs-cf-1,up
+,,accs-cf-2,up
+,,accs-cf-3,up
+,,accs-cf-4,up
+,,accs-cf-5,up
+,,accs-cf-6,up
+,,accs-cf-es-1,up
+,Nahant Bunker-113,accs-msc-gn-113-1,up
+,Nahant Bunker-113,accs-msc-gn-124-1,up
+,,accs-sea-1xx-temp-1-backup,up
+,St. Stephens St. RM 006d1,accs-ss-006d1-1,up
+,St. Stephens St. RM 011,accs-ss-011-1,up
+,St. Stephens St. RM 106,accs-ss-106-1,up
