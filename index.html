@@ -8,6 +8,11 @@
 
   <link rel="shortcut icon" type="image/x-icon" href="images/Northeastern.ico">
 
+  <!-- Load Google Fonts (Inter) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+
   <!-- Load main stylesheet from local -->
   <link rel="stylesheet" href="main.css">
   <!-- Mapbox GL stylesheet for displaying Popups and Markers (surpresses warning)-->
@@ -38,9 +43,14 @@
     <div class="wrapper">
       <div id="map"></div>
 
+      <button class="tableButton" id="tableButton" onclick="showNetworkTable()"></button>
+
+      <div class="networkTablePopup" id="networkTablePopup">hello</div>
+
+
       <span class="updateTimer" id="updateTimer">
-        <div id="updateTimerText"></div>
-        <button id="updateTimerButton">Refresh</button>
+        <div class="updateTimerText" id="updateTimerText"></div>
+        <button class="updateTimerButton" id="updateTimerButton">&#x21bb; Refresh</button>
       </span>
 
     </div>
@@ -57,6 +67,8 @@
 
   <!-- Place markers on the map based on network status -->
   <script src="js/MarkerStatus.js"></script>
+
+  <script src="js/table.js"></script>
 
 
 </body>

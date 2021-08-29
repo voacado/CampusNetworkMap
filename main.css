@@ -13,7 +13,21 @@ body, html {
   left: auto;
   right: 10px;
   top: auto;
-  bottom: 25px
+  bottom: 25px;
+}
+
+/* remove rounded corners from zoom controls */
+
+/* first = "+" zoom, last = "-" zoom */
+
+.leaflet-touch .leaflet-bar a:first-child {
+  border-radius: 0px;
+  transition: all 0.2s;
+}
+
+.leaflet-touch .leaflet-bar a:last-child {
+  border-radius: 0px;
+  transition: all 0.2s;
 }
 
 .wrapper, #map, .updateTimer {
@@ -35,12 +49,111 @@ body, html {
 
 .updateTimer {
   z-index: 100000;
-  padding: 10px 10px;
   pointer-events: none;
-  bottom: 0;
-  left: 0;
+  padding: 5px 5px;
+  bottom: 28px;
+  left: 10px;
+  width: 175px;
+  height: 50px;
+  background-color: #F7F7FA;
+  outline: 2px solid;
+  outline-color: #CACACA;
+  border-radius: 0px !important;
+  box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.25);
 }
 
 .updateTimer>* {
   pointer-events: auto;
+}
+
+.updateTimerText {
+  font-family: 'Inter', sans-serif;
+  font-size: 13px;
+  padding-bottom: 4px;
+}
+
+.updateTimerButton {
+  display: inline-block;
+  padding: 0.3em 1.2em;
+  margin: 0 0.3em 0.3em 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: 'Inter', sans-serif;
+  font-weight: 300;
+  color: #FFFFFF;
+  font-size: 12px;
+  text-align: center;
+  background-color: #44ABDE;
+  transition: all 0.2s;
+}
+
+.updateTimerButton:hover {
+  background-color: #288DC8;
+}
+
+/* Floating Action Button - Open Table */
+
+/* Inspiration: https://codepen.io/chancesq/pen/MWKREVg */
+
+.tableButton {
+  position: absolute;
+  z-index: 100000;
+  width: 185px;
+  height: 50px;
+  left: 10px;
+  top: 10px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 29px;
+  cursor: pointer;
+  background: #ffc421;
+  border: 2px solid black;
+  box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.4);
+  transition: 500ms;
+}
+
+.tableButton:after {
+  content: '';
+  position: absolute;
+  transform: translateX(-55px) translateY(-40px);
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background: transparent;
+  box-shadow: 0px 0px 50px transparent;
+  transition: 500ms;
+}
+
+.tableButton:hover {
+  transform: translateY(-2px);
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.4);
+}
+
+/* Table pop-up */
+
+/* Source: https://jsfiddle.net/KnrEF/1/ */
+
+.networkTablePopup {
+  position: absolute;
+  z-index: 100000;
+  width: 25%;
+  height: 75%;
+  overflow: hidden;
+  left: 10px;
+  top: 70px;
+  background-color: #F7F7FA;
+  outline: 0px solid;
+  outline-color: #CACACA;
+  max-height: 0;
+  transition: all 0.5s ease-out;
+  /* transition: outline-color 0s, outline 0s 0.5s, max-height 0.5s; */
+}
+
+.networkTablePopup.visible {
+  /* Animation speed is determined by "transition" in .networkTablePopup */
+  outline: 2px solid;
+  outline-color: #CACACA;
+  max-height: 75%;
 }

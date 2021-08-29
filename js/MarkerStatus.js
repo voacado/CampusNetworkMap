@@ -64,6 +64,10 @@ var csvData = new Map();
  */
 var markerGroup = L.layerGroup().addTo(map);
 
+var goodDevices = 0;
+var badDevices = 0;
+var unkDevices = 0;
+
 /**
 * loadCSV() takes in the directory of the CSV file and stores the data
 * into a map called csvData.
@@ -171,6 +175,7 @@ function placeMarkerSQL(db) {
 function determineIcon(listOfDevices) {
   // Nullity check: if building does not have a building code, return unknown icon (orange dash)
   if (listOfDevices == null) {
+    unkDevices++;
     return unknownIcon;
   }
 
@@ -186,16 +191,24 @@ function determineIcon(listOfDevices) {
 
     // Error Check: return unknown icon if the device list for a building code is empty
     if (deviceList == null) {
+      unkDevices++;
       return unknownIcon;
     }
     // for each device (for a code), check if its online:
     for (var curDevice = 0; curDevice < deviceList.length; curDevice++) {
+      // offline device
       if (deviceList[curDevice].Status == "down") {
+        badDevices++;
         return badIcon;
+        // missing data about status
+      } else if (deviceList[curDevice].Status == null) {
+        unkDevices++;
+        return unknownIcon;
       }
     }
   }
   // else, return the good icon (green checkmark)
+  goodDevices++;
   return goodIcon;
 }
 
@@ -249,6 +262,10 @@ function run() {
         document.getElementById("updateTimerText").innerHTML = "Next update in: " + (i - 1) + " seconds";
       };
 
+      // Update information regarding ratio of good devices to total devices
+      document.getElementById("tableButton").innerHTML = "&raquo; " + goodDevices + "/"
+        + (badDevices + goodDevices) + " (" + unkDevices + ")"
+
     });
 }
 
@@ -261,10 +278,21 @@ function update(db) {
 
   // Clear all markers
   markerGroup.clearLayers();
+
+  // Reset counters
+  goodDevices = 0;
+  badDevices = 0;
+  unkDevices = 0;
+
   // // reload CSV data
   loadCSV('data/exampleAkipsStatus.csv')
     //   // place new markers
     .then(() => placeMarkerSQL(db))
+    .then(() =>
+    // update ratios of devices
+      document.getElementById("tableButton").innerHTML = "&raquo; " + goodDevices + "/"
+      + (badDevices + goodDevices) + " (" + unkDevices + ")"
+    )
 }
 
 // START
