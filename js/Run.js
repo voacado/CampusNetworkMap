@@ -54,9 +54,14 @@
 
     })
     // Fill the network table with data
-    .then(() => updateNetworkTable(csvData));
+    .then(() => updateNetworkTable(csvData))
+    // Add the table visual function to the button after the website has loaded.
+    .then(() => document.getElementById("tableButton").onclick = function() {
+      showNetworkTable();
+    });
 
-    console.log(csvData);
+    // console.log(csvData);
+    // TODO: should assigning onclicks go in .then() or in window.onload()? does it matter?
 }
 
 /**
@@ -87,7 +92,7 @@ function update(db) {
       + (badDevices + goodDevices) + " (" + unkDevices + ")"
     )
     // Update the network table with the latest data
-    .then(() => updateNetworkTable(csvData))
+    .then(() => updateNetworkTable(csvData));
 }
 
 // START
