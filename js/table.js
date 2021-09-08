@@ -8,3 +8,37 @@ function showNetworkTable() {
   // and toggle its visiblity
   x.classList.toggle("visible");
 }
+
+/**
+ * Updates the network table displayed when clicking the yellow button.
+ * Data is parsed from a CSV and method is run in Run.js.
+ * 
+ * @param {Map} tableData a list of the locations and their devices
+ */
+function updateNetworkTable(tableData) {
+
+  let table = '<table border="1">';
+  table += `<tr><th>Code</th><th>Description</th><th>Device</th><th>Status</th></tr>`;
+
+  // The data structure for the map (tableData) is:
+  // a list of buildings that holds an object that is a list of devices
+
+  // for each building:
+  tableData.forEach((tableBuilding, index) => {
+    // for each device in a building:
+    tableBuilding.forEach((tableDevice, index) => {
+
+      // Append the data to the table.
+
+      table += `<tr>`;
+      table += `<td>${tableDevice.Code}</td>`;
+      table += `<td>${tableDevice.Description}</td>`;
+      table += `<td>${tableDevice.Device}</td>`;
+      table += `<td>${tableDevice.Status}</td>`;
+      table += `</tr>`;
+
+    });
+  });
+
+  document.getElementById("networkTableContent").innerHTML = table;
+}

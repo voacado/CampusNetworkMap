@@ -45,7 +45,9 @@
 
       <button class="tableButton" id="tableButton" onclick="showNetworkTable()"></button>
 
-      <div class="networkTablePopup" id="networkTablePopup">hello</div>
+      <div class="networkTablePopup" id="networkTablePopup">
+        <table class="networkTableContent" id="networkTableContent"></table>
+      </div>
 
 
       <span class="updateTimer" id="updateTimer">
@@ -68,8 +70,11 @@
   <!-- Place markers on the map based on network status -->
   <script src="js/MarkerStatus.js"></script>
 
-  <script src="js/table.js"></script>
+  <!-- Updates the network status table (top-left) based on data -->
+  <script src="js/Table.js"></script>
 
+  <!-- Run and update the map periodically -->
+  <script src="js/Run.js"></script>
 
 </body>
 

@@ -140,7 +140,7 @@ body, html {
   z-index: 100000;
   width: 25%;
   height: 75%;
-  overflow: hidden;
+  overflow: auto;
   left: 10px;
   top: 70px;
   background-color: #F7F7FA;
@@ -156,4 +156,36 @@ body, html {
   outline: 2px solid;
   outline-color: #CACACA;
   max-height: 75%;
+}
+
+/* 
+  Table 
+  Inspiration: https://dev.to/dcodeyt/creating-beautiful-html-tables-with-css-428l 
+   */
+
+.networkTableContent {
+  border-collapse: collapse;
+  font-size: 0.75em;
+  font-family: sans-serif;
+  min-width: 50px;
+}
+
+.networkTableContent th, .networkTableContent td {
+  padding: 4px 5px;
+}
+
+/* Freeze the top row of the table */
+.networkTableContent th {
+  background: white;
+  font-weight: bold;
+  position: sticky;
+  top: 0;
+}
+
+.networkTableContent tbody tr {
+  border-bottom: thin solid #F7F7FA;
+}
+
+.networkTableContent tbody tr:nth-of-type(even) {
+  background-color: #f3f3f3;
 }
