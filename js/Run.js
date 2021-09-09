@@ -61,6 +61,10 @@ var akipsDataPath = 'data/akipsStatus5843.csv';
     // Add the table visual function to the button after the website has loaded.
     .then(() => document.getElementById("tableButton").onclick = function() {
       showNetworkTable();
+    })
+    // Add onclick for show/hide button in table visualization to condense information.
+    .then(() => document.getElementById("showHideWorkingButton").onclick = function() {
+      toggleUpVisiblity();
     });
 
     // console.log(csvData);

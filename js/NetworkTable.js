@@ -42,3 +42,22 @@ function updateNetworkTable(tableData) {
 
   document.getElementById("networkTableContent").innerHTML = table;
 }
+
+/**
+ * Toggles the visibility of a row in the network table visualization.
+ * Specifically, the code only looks through column 3 ("Status") for "up" and shows/hides respectively.
+ */
+function toggleUpVisiblity() {
+
+  var table = document.getElementById("networkTableContent");
+  for (var i = 0, row; row = table.rows[i]; i++) {
+
+    if (row.cells[3].textContent == 'up') {
+      row.classList.toggle('tableRowHidden')
+    }
+  }
+}
+
+// function updateNetworkErrorTable(tableData) {
+
+// }
