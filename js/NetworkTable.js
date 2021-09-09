@@ -49,6 +49,7 @@ function updateNetworkTable(tableData) {
  */
 function toggleUpVisiblity() {
 
+  // TODO: size of columns change b/c amount of text changes. Should I change column size to be fixed?
   var table = document.getElementById("networkTableContent");
   for (var i = 0, row; row = table.rows[i]; i++) {
 
