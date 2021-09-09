@@ -13,6 +13,9 @@
   \____/|_|    |_____/_/    \_\_|  |_____|_| \_|\_____|                                    
 */
 
+var databasePath = 'data/buildings.db';
+var akipsDataPath = 'data/akipsStatus5843.csv';
+
 /**
  * Runs the code in sequential order. The CSV MUST be parsed first, then the SQLite db is loaded
  * and parsed appropriately.
@@ -23,8 +26,8 @@
   var origLoopTime = i.valueOf();
 
   // Add markers
-  loadCSV('data/exampleAkipsStatus.csv') // load CSV first
-    .then(() => loadSQLite('data/buildings.db')) // then load SQLite db (order is important for return result)
+  loadCSV(akipsDataPath) // load CSV first
+    .then(() => loadSQLite(databasePath)) // then load SQLite db (order is important for return result)
     .then(function (database) { // database = the returned promise from loadSQLite
       placeMarkerSQL(database);
 
@@ -82,7 +85,7 @@ function update(db) {
   unkDevices = 0;
 
   // // reload CSV data
-  loadCSV('data/exampleAkipsStatus.csv')
+  loadCSV(akipsDataPath)
     //   // place new markers
     .then(() => placeMarkerSQL(db))
     .then(() =>
