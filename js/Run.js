@@ -68,7 +68,6 @@ var akipsDataPath = 'data/akipsStatus5843.csv';
       toggleUpVisiblity();
     });
 
-    console.log(errorData)
     // TODO: should assigning onclicks go in .then() or in window.onload()? does it matter?
 }
 
