@@ -54,7 +54,7 @@ body, html {
   bottom: 28px;
   left: 10px;
   width: 175px;
-  height: 50px;
+  height: 62px;
   background-color: #F7F7FA;
   outline: 2px solid;
   outline-color: #CACACA;
@@ -66,10 +66,14 @@ body, html {
   pointer-events: auto;
 }
 
-.updateTimerText {
+.updateTimerText, .updateTimestamp {
   font-family: 'Inter', sans-serif;
   font-size: 13px;
   padding-bottom: 4px;
+}
+
+.updateTimestamp {
+  font-size: 10px;
 }
 
 .updateTimerButton {
@@ -192,10 +196,15 @@ body, html {
   font-size: 0.75em;
   font-family: sans-serif;
   min-width: 50px;
+
+  margin: 0;
+  padding: 0;
+  width: 100%;
 }
 
 .networkTableContent th, .networkTableContent td {
   padding: 4px 5px;
+  
 }
 
 /* Freeze the top row of the table */
@@ -217,4 +226,13 @@ body, html {
 /* Show hide */
 .tableRowHidden {
   display: none;
+}
+
+.malformedTableHeader {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 29px;
+  padding-top: 10px;
 }

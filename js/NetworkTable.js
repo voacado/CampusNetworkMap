@@ -29,7 +29,6 @@ function updateNetworkTable(tableData) {
     tableBuilding.forEach((tableDevice, index) => {
 
       // Append the data to the table.
-
       table += `<tr>`;
       table += `<td>${tableDevice.Code}</td>`;
       table += `<td>${tableDevice.Description}</td>`;
@@ -59,6 +58,35 @@ function toggleUpVisiblity() {
   }
 }
 
-// function updateNetworkErrorTable(tableData) {
+function updateNetworkErrorTable(errorTableData) {
+  let table = '<table border="1">';
+  table += `<tr><th>Code</th><th>Description</th><th>Device</th><th>Status</th></tr>`;
 
-// }
+  // The data structure for the map (tableData) is:
+  // a list of buildings that holds an object that is a list of devices
+
+  // for each device in the table of invalid devices:
+  errorTableData.forEach((tableDevice, index) => {
+
+    console.log(tableDevice)
+
+    // Append the data to the table.
+    table += `<tr>`;
+    table += `<td>${tableDevice.data.Code}</td>`;
+    table += `<td>${tableDevice.data.Description}</td>`;
+    table += `<td>${tableDevice.data.Device}</td>`;
+    table += `<td>${tableDevice.data.Status}</td>`;
+    table += `</tr>`;
+
+  });
+
+  if (errorTableData.length == 0) {
+    document.getElementById("malformedTableHeader").classList.add("tableRowHidden");
+    document.getElementById("networkErrorTableContent").classList.add("tableRowHidden");
+  } else {
+    document.getElementById("malformedTableHeader").classList.remove("tableRowHidden");
+    document.getElementById("networkErrorTableContent").classList.remove("tableRowHidden");
+  }
+
+  document.getElementById("networkErrorTableContent").innerHTML = table;
+}

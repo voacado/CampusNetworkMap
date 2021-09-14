@@ -58,6 +58,7 @@ var akipsDataPath = 'data/akipsStatus5843.csv';
     })
     // Fill the network table with data
     .then(() => updateNetworkTable(csvData))
+    .then(() => updateNetworkErrorTable(errorData))
     // Add the table visual function to the button after the website has loaded.
     .then(() => document.getElementById("tableButton").onclick = function() {
       showNetworkTable();
@@ -67,7 +68,7 @@ var akipsDataPath = 'data/akipsStatus5843.csv';
       toggleUpVisiblity();
     });
 
-    // console.log(csvData);
+    console.log(errorData)
     // TODO: should assigning onclicks go in .then() or in window.onload()? does it matter?
 }
 
@@ -80,8 +81,9 @@ function update(db) {
 
   // Clear all existing markers
   markerGroup.clearLayers();
-  // Clear existing status data
+  // Clear existing status and error data
   csvData.clear();
+  errorData.length = 0;
 
   // Reset counters
   goodDevices = 0;
@@ -99,7 +101,8 @@ function update(db) {
       + (badDevices + goodDevices) + " (" + unkDevices + ")"
     )
     // Update the network table with the latest data
-    .then(() => updateNetworkTable(csvData));
+    .then(() => updateNetworkTable(csvData))
+    .then(() => updateNetworkErrorTable(errorData));
 }
 
 // START
