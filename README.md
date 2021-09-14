@@ -21,7 +21,10 @@ Checkmarks
 
 ### 📝 TODO:
 - Update the map periodically (every 5 minutes) (DONE)
-  - Include a "Time last updated" indicator
+  - Include a "Time last updated" indicator (DONE)
+- Table of all/non-functional network devices (DONE)
+- Amount of operational / total count (DONE)
 - Search bar for markers
-- Table of all/non-functional network devices
-- Amount of operational / total count
+- Add table to marker descriptions on-map
+- Add building code to name of every building
+- GOAL: rewrite code using ReactJS for components and NodeJS for package management
