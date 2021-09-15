@@ -88,7 +88,6 @@ function placeMarkerSQL(db) {
 function determineIcon(listOfDevices) {
   // Nullity check: if building does not have a building code, return unknown icon (orange dash)
   if (listOfDevices == null) {
-    unkDevices++;
     return unknownIcon;
   }
 
@@ -104,7 +103,6 @@ function determineIcon(listOfDevices) {
 
     // Error Check: return unknown icon if the device list for a building code is empty
     if (deviceList == null) {
-      unkDevices++;
       return unknownIcon;
     }
     // for each device (for a code), check if its online:
@@ -115,7 +113,6 @@ function determineIcon(listOfDevices) {
         return badIcon;
         // missing data about status
       } else if (deviceList[curDevice].Status == null) {
-        unkDevices++;
         return unknownIcon;
       }
     }

@@ -52,7 +52,6 @@ function loadCSV(location) {
         // an offline device if that offline device is errored (invalid info)
         if ((row.data.Code == null) || (row.data.Description == null) || (row.data.Device == null) || (row.data.Status == null)) {
 
-
           errorData.push(row);
           // Parse the timestamp
         } else if (row.data.Code == 'TIME') {
@@ -68,6 +67,7 @@ function loadCSV(location) {
         }
       },
       complete: function (results) {
+        unkDevices = errorData.length;
         resolve('Parse CSV done.') // Resolve = done and promise fulfilled.
       }
     });
