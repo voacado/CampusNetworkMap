@@ -48,7 +48,17 @@ function updateNetworkTable(tableData) {
  */
 function toggleUpVisiblity() {
 
-  // TODO: size of columns change b/c amount of text changes. Should I change column size to be fixed?
+  // Toggle Button text between "Display Down Devices" and "Display All Devices"
+  var button = document.getElementById("showHideWorkingButton");
+  if (button.innerHTML == "Display All Devices") {
+    button.innerHTML = "Display Down Devices";
+  }
+  else {
+    button.innerHTML = "Display All Devices";
+  }
+
+
+  // For each row, if the Status is "up", hide it.
   var table = document.getElementById("networkTableContent");
   for (var i = 0, row; row = table.rows[i]; i++) {
 

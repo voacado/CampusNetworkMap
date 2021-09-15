@@ -59,6 +59,7 @@ var akipsDataPath = 'data/akipsStatus5843.csv';
     // Fill the network table with data
     .then(() => updateNetworkTable(csvData))
     .then(() => updateNetworkErrorTable(errorData))
+    .then(() => toggleUpVisiblity())
     // Add the table visual function to the button after the website has loaded.
     .then(() => document.getElementById("tableButton").onclick = function() {
       showNetworkTable();
