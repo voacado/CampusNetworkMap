@@ -6,11 +6,11 @@
 
 // Map object with default starting viewpoint and a minimum zoom level set.
 const map = L.map('map', {
-  minZoom: 16.25,
-  scrollWheelZoom: false, // disable original zoom function
-  smoothWheelZoom: true,  // enable smooth zoom 
-  smoothSensitivity: 0.5  // zoom speed. default is 1
-}).setView([42.339, -71.089], 17);
+  minZoom: mapMinZoom,
+  scrollWheelZoom: mapScrollWheelZoom, // disable original zoom function
+  smoothWheelZoom: mapSmoothWheelZoom,  // enable smooth zoom 
+  smoothSensitivity: mapSmoothSensitivity  // zoom speed. default is 1
+}).setView([mapStartLatitude, mapStartLongitude], mapStartZoomLevel);
 
 // Sets basemap to use for map generation.
 L.esri.basemapLayer('Streets').addTo(map);

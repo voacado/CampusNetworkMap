@@ -24,7 +24,7 @@
 */
 var StatusIcon = L.Icon.extend({
   options: {
-    iconUrl: 'images/check-mark.svg',
+    // iconUrl: 'images/unknownIcon.svg',
     iconSize: [20, 20], // size of the icon
     iconAnchor: [10, 10], // point of the icon which will correspond to marker's location
     popupAnchor: [0, -20] // point from which the popup should open relative to the iconAnchor
@@ -34,15 +34,15 @@ var StatusIcon = L.Icon.extend({
 /**
 * Good icon representing a functional network device. To be used as a marker icon.
 */
-var goodIcon = new StatusIcon({ iconUrl: "images/check-mark.svg" });
+var goodIcon = new StatusIcon({ iconUrl: goodIconPath });
 /**
  * Bad icon representing a non-responsive network device. To be used as a marker icon.
  */
-var badIcon = new StatusIcon({ iconUrl: "images/x-mark.svg" });
+var badIcon = new StatusIcon({ iconUrl: badIconPath });
 /**
  * Unknown icon representing an unknown device (ex. missing building code). To be used as a marker icon.
  */
-var unknownIcon = new StatusIcon({ iconUrl: "images/unknown.svg" });
+var unknownIcon = new StatusIcon({ iconUrl: unknownIconPath });
 
 /*
   __  __          _____     __  __          _____  _  ________ _____   _____ 

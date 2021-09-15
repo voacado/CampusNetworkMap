@@ -13,17 +13,14 @@
   \____/|_|    |_____/_/    \_\_|  |_____|_| \_|\_____|                                    
 */
 
-var databasePath = 'data/buildings.db';
-var akipsDataPath = 'data/akipsStatus5843.csv';
-
 /**
  * Runs the code in sequential order. The CSV MUST be parsed first, then the SQLite db is loaded
  * and parsed appropriately.
  */
 function run() {
 
-  var i = 30;
-  var origLoopTime = i.valueOf();
+  // Store the original time so we can re-use it.
+  var origLoopTime = refreshTimerinSeconds.valueOf();
 
   // Add markers
   loadCSV(akipsDataPath) // load CSV first
@@ -34,21 +31,21 @@ function run() {
       // Run update() every 60000ms (60 seconds).
       var int = setInterval(function () {
         // Update page HTML
-        document.getElementById("updateTimerText").innerHTML = "Next update in: " + (i - 1) + " seconds";
-        i--;
+        document.getElementById("updateTimerText").innerHTML = "Next update in: " + (refreshTimerinSeconds - 1) + " seconds";
+        refreshTimerinSeconds--;
 
         // once the timer hits 0, update the map markers and restart the timer.
-        if (i == 0) {
+        if (refreshTimerinSeconds == 0) {
           update(database);
-          i = origLoopTime;
+          refreshTimerinSeconds = origLoopTime;
         }
       }, 1000);
 
       // On button click, update the markers, reset the timer, and update the page information
       document.getElementById("updateTimerButton").onclick = function () {
         update(database);
-        i = origLoopTime;
-        document.getElementById("updateTimerText").innerHTML = "Next update in: " + (i - 1) + " seconds";
+        refreshTimerinSeconds = origLoopTime;
+        document.getElementById("updateTimerText").innerHTML = "Next update in: " + (refreshTimerinSeconds - 1) + " seconds";
       };
 
       // Update information regarding ratio of good devices to total devices
