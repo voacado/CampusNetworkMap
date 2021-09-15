@@ -20,7 +20,7 @@ var akipsDataPath = 'data/akipsStatus5843.csv';
  * Runs the code in sequential order. The CSV MUST be parsed first, then the SQLite db is loaded
  * and parsed appropriately.
  */
- function run() {
+function run() {
 
   var i = 30;
   var origLoopTime = i.valueOf();
@@ -53,23 +53,24 @@ var akipsDataPath = 'data/akipsStatus5843.csv';
 
       // Update information regarding ratio of good devices to total devices
       document.getElementById("tableButton").innerHTML = "&raquo; " + goodDevices + "/"
-        + (badDevices + goodDevices) + " (" + unkDevices + ")"
+        + (badDevices + goodDevices) + " working<br>(" + unkDevices + " unknown)"
 
     })
     // Fill the network table with data
     .then(() => updateNetworkTable(csvData))
     .then(() => updateNetworkErrorTable(errorData))
+    // Start the network table visualization with only "Down" devices.
     .then(() => toggleUpVisiblity())
     // Add the table visual function to the button after the website has loaded.
-    .then(() => document.getElementById("tableButton").onclick = function() {
+    .then(() => document.getElementById("tableButton").onclick = function () {
       showNetworkTable();
     })
     // Add onclick for show/hide button in table visualization to condense information.
-    .then(() => document.getElementById("showHideWorkingButton").onclick = function() {
+    .then(() => document.getElementById("showHideWorkingButton").onclick = function () {
       toggleUpVisiblity();
     });
 
-    // TODO: should assigning onclicks go in .then() or in window.onload()? does it matter?
+  // TODO: should assigning onclicks go in .then() or in window.onload()? does it matter?
 }
 
 /**
@@ -95,10 +96,10 @@ function update(db) {
     //   // place new markers
     .then(() => placeMarkerSQL(db))
     .then(() =>
-    // update ratios of devices
-    // Syntax: >> (good devices) / (total devices) (unknown devices)
+      // update ratios of devices
+      // Syntax: >> (good devices) / (total devices) (unknown devices)
       document.getElementById("tableButton").innerHTML = "&raquo; " + goodDevices + "/"
-      + (badDevices + goodDevices) + " (" + unkDevices + ")"
+      + (badDevices + goodDevices) + " working<br>(" + unkDevices + " unknown)"
     )
     // Update the network table with the latest data
     .then(() => updateNetworkTable(csvData))
