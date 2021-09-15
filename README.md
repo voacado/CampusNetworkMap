@@ -28,3 +28,5 @@ Checkmarks
 - Add table to marker descriptions on-map
 - Add building code to name of every building
 - GOAL: rewrite code using ReactJS for components and NodeJS for package management
+- Condense / clean code
+  - ex: css (markerTable and networkTable mostly similar CSS)

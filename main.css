@@ -236,3 +236,26 @@ body, html {
   line-height: 29px;
   padding-top: 10px;
 }
+
+
+.markerTableContent {
+  border-collapse: collapse;
+  font-size: 1em;
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.markerTableContent th, .markerTableContent td {
+  padding: 4px 5px;
+  
+}
+
+.markerTableContent tbody tr {
+  border-bottom: thin solid #F7F7FA;
+}
+
+.markerTableContent tbody tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+}

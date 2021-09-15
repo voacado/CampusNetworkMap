@@ -100,7 +100,8 @@ function updateNetworkErrorTable(errorTableData) {
  */
 function createIndividualTable(buildingCodes) {
 
-  let table = '<table border="1">';
+  // let table = '<table border="1">';
+  let table = '<table class ="markerTableContent">';
   table += `<tr><th>Code</th><th>Description</th><th>Device</th><th>Status</th></tr>`;
 
   // In the event of multiple building codes, split them up (by comma delimiter)

@@ -68,10 +68,13 @@ function placeMarkerSQL(db) {
   // 0 - Title, 1 - Latitude, 2 - Longitude, 3 - Codes
   for (var i in data) {
     var row = data[i];
+
     var marker = L.marker([row[1], row[2]],
       { icon: determineIcon(row[3]), title: row[0] }) // icon is good if all network devices are on for "x" building
-      .bindPopup("<b>" + row[0] + "</b><br>" + createIndividualTable(row[3]))
       .addTo(markerGroup);
+
+    var popup = L.popup({maxHeight: 350}).setContent("<b>" + row[0] + "</b><br>" + createIndividualTable(row[3]));
+    marker.bindPopup(popup);
   }
 }
 
