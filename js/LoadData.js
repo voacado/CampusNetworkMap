@@ -17,7 +17,64 @@ var errorData = new Array();
 /**
  * List of markers placed onto the map.
  */
-var markerGroup = L.layerGroup().addTo(map);
+// var markerGroup = L.layerGroup().addTo(map);
+// var markerGroup = L.markerClusterGroup().addTo(map);
+// TODO: how do I make this more scalable?
+var locationGroup = new Map();
+
+var northCampus = L.markerClusterGroup({
+  spiderfyOnMaxZoom: spiderfyOnMaxZoomCond,
+  disableClusteringAtZoom: disableClusteringAtZoomValue,
+  maxClusterRadius: maxClusterRadiusValue,
+  iconCreateFunction: function(cluster) {
+		return determineClusterIcon(cluster);
+	}
+}).addTo(map);
+
+var eastHuntington = L.markerClusterGroup({
+  spiderfyOnMaxZoom: spiderfyOnMaxZoomCond,
+  disableClusteringAtZoom: disableClusteringAtZoomValue,
+  maxClusterRadius: maxClusterRadiusValue,
+  iconCreateFunction: function(cluster) {
+		return determineClusterIcon(cluster);
+	}
+}).addTo(map);
+
+var southCampus = L.markerClusterGroup({
+  spiderfyOnMaxZoom: spiderfyOnMaxZoomCond,
+  disableClusteringAtZoom: disableClusteringAtZoomValue,
+  maxClusterRadius: maxClusterRadiusValue,
+  iconCreateFunction: function(cluster) {
+		return determineClusterIcon(cluster);
+	}
+}).addTo(map);
+
+var westCampus = L.markerClusterGroup({
+  spiderfyOnMaxZoom: spiderfyOnMaxZoomCond,
+  disableClusteringAtZoom: disableClusteringAtZoomValue,
+  maxClusterRadius: maxClusterRadiusValue,
+  iconCreateFunction: function(cluster) {
+		return determineClusterIcon(cluster);
+	}
+}).addTo(map);
+
+var offCampus = L.markerClusterGroup({
+  spiderfyOnMaxZoom: spiderfyOnMaxZoomCond,
+  disableClusteringAtZoom: disableClusteringAtZoomValue,
+  maxClusterRadius: maxClusterRadiusValue,
+  iconCreateFunction: function(cluster) {
+		return determineClusterIcon(cluster);
+	}
+}).addTo(map);
+
+var centralCampus = L.markerClusterGroup({
+  spiderfyOnMaxZoom: spiderfyOnMaxZoomCond,
+  disableClusteringAtZoom: disableClusteringAtZoomValue,
+  maxClusterRadius: maxClusterRadiusValue,
+  iconCreateFunction: function(cluster) {
+		return determineClusterIcon(cluster);
+	}
+}).addTo(map);
 
 var goodDevices = 0;
 var badDevices = 0;

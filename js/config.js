@@ -14,7 +14,7 @@ var akipsDataPath = 'data/akipsStatus5843.csv';
 var refreshTimerinSeconds = 30;
 
 // From EsriMap.js - Map configuration
-var mapMinZoom = 16.25 // Furthest out a user can zoom (reduces load)
+var mapMinZoom = 15.25 // Furthest out a user can zoom (reduces load)
 var mapScrollWheelZoom = false // disable original zoom function
 var mapSmoothWheelZoom = true // enable smooth zoom 
 var mapSmoothSensitivity = true // zoom speed. default is 1
@@ -26,3 +26,9 @@ var mapStartZoomLevel = 17 // on page-load zoom level
 var goodIconPath = 'images/check-mark.svg'
 var badIconPath = 'images/x-mark.svg'
 var unknownIconPath = 'images/unknown.svg'
+
+// From LoadData.js - Marker Cluster configuration
+var spiderfyOnMaxZoomCond = false // recommended to disable when using disableClusteringAtZoom
+var disableClusteringAtZoomValue = 17 // prevents clustering until zoom level reached
+var maxClusterRadiusValue = 9999 // distance one cluster will encompass
+

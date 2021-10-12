@@ -30,6 +30,10 @@
   <!-- Load Esri Leaflet from CDN -->
   <script src="https://unpkg.com/esri-leaflet@3.0.0/dist/esri-leaflet.js"></script>
   <script src="https://unpkg.com/esri-leaflet-vector@3.0.0/dist/esri-leaflet-vector.js"></script>
+  <!-- Load Leaflet MarkerCluster from CDN -->
+  <script src="https://unpkg.com/leaflet.markercluster@1.4.1/dist/leaflet.markercluster.js"></script>
+  <!-- Load Leaflet MarkerCluster Freezable from CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/leaflet.markercluster.freezable@1.0.0/dist/leaflet.markercluster.freezable.min.js"></script>
 
   <!-- Load Papa Parse to read data from CSV file -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.1/papaparse.min.js"></script>
@@ -43,7 +47,6 @@
     <div class="wrapper">
       <div id="map"></div>
 
-      <!-- <button class="tableButton" id="tableButton" onclick="showNetworkTable()"></button> -->
       <button class="tableButton" id="tableButton"></button>
 
       <div class="networkTablePopup" id="networkTablePopup">
@@ -58,6 +61,13 @@
       <span class="updateTimer" id="updateTimer">
         <div class="updateTimerText" id="updateTimerText"></div>
         <button class="updateTimerButton" id="updateTimerButton">&#x21bb; Refresh</button>
+
+        <!-- <input type="checkbox" id="cluster" name="cluster" value="Bike"> -->
+        <!-- <label class="clusterButtonText" for="cluster"> Unclustered</label> -->
+
+        <input type="checkbox" name="clusterButton" id="clusterButton"/>
+        <label class="clusterButtonText" id="clusterButtonText" for="clusterButton">Clustered</label>
+
         <div class="updateTimestamp" id="updateTimestamp"></div>
       </span>
 

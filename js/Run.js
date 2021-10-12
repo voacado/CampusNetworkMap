@@ -26,7 +26,7 @@ function run() {
   loadCSV(akipsDataPath) // load CSV first
     .then(() => loadSQLite(databasePath)) // then load SQLite db (order is important for return result)
     .then(function (database) { // database = the returned promise from loadSQLite
-      placeMarkerSQL(database);
+      placeGroupedMarkerSQL(database);
 
       // Run update() every 60000ms (60 seconds).
       var int = setInterval(function () {
@@ -65,6 +65,31 @@ function run() {
     // Add onclick for show/hide button in table visualization to condense information.
     .then(() => document.getElementById("showHideWorkingButton").onclick = function () {
       toggleUpVisiblity();
+    })
+    // Check if cluster / unclustered checkbox is ticked
+    .then(() => {
+      const checkbox = document.getElementById('clusterButton')
+
+      // TODO: figure out a way to clean this up (and all other calls to northCampus, ...)
+      checkbox.addEventListener('change', (event) => {
+        if (event.currentTarget.checked) {
+          northCampus.disableClustering();
+          eastHuntington.disableClustering();
+          southCampus.disableClustering();
+          westCampus.disableClustering();
+          offCampus.disableClustering();
+          centralCampus.disableClustering();
+          document.getElementById('clusterButtonText').innerHTML = "Unclustered";
+        } else {
+          northCampus.enableClustering();
+          eastHuntington.enableClustering();
+          southCampus.enableClustering();
+          westCampus.enableClustering();
+          offCampus.enableClustering();
+          centralCampus.enableClustering();
+          document.getElementById('clusterButtonText').innerHTML = "Clustered";
+        }
+      })
     });
 
   // TODO: should assigning onclicks go in .then() or in window.onload()? does it matter?
@@ -78,7 +103,15 @@ function run() {
 function update(db) {
 
   // Clear all existing markers
-  markerGroup.clearLayers();
+  // markerGroup.clearLayers();
+  // TODO: make more scalable
+  locationGroup.clear()
+  northCampus.clearLayers();
+  eastHuntington.clearLayers();
+  southCampus.clearLayers();
+  westCampus.clearLayers();
+  offCampus.clearLayers();
+  centralCampus.clearLayers();
   // Clear existing status and error data
   csvData.clear();
   errorData.length = 0;
@@ -91,7 +124,7 @@ function update(db) {
   // // reload CSV data
   loadCSV(akipsDataPath)
     //   // place new markers
-    .then(() => placeMarkerSQL(db))
+    .then(() => placeGroupedMarkerSQL(db))
     .then(() =>
       // update ratios of devices
       // Syntax: >> (good devices) / (total devices) (unknown devices)
@@ -100,7 +133,15 @@ function update(db) {
     )
     // Update the network table with the latest data
     .then(() => updateNetworkTable(csvData))
-    .then(() => updateNetworkErrorTable(errorData));
+    .then(() => updateNetworkErrorTable(errorData))
+
+    .then(() => northCampus.refreshClusters())
+    .then(() => eastHuntington.refreshClusters())
+    .then(() => southCampus.refreshClusters())
+    .then(() => westCampus.refreshClusters())
+    .then(() => offCampus.refreshClusters())
+    .then(() => centralCampus.refreshClusters());
+    // .then(() => console.log(locationGroup));
 }
 
 // START

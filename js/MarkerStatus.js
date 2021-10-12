@@ -58,24 +58,35 @@ var unknownIcon = new StatusIcon({ iconUrl: unknownIconPath });
  * 
  * @param {Array} db the database containing network data.
  */
-function placeMarkerSQL(db) {
-  // .exec stores the result in an array of objects (numbered 0 to ...)
-  const contents = db.exec("SELECT * FROM BuildingCodes");
-  // this object contains two arrays: columns and values
-  var data = contents[0].values;
+ function placeMarkerSQL(db) {
+  return new Promise(function (resolve, reject) {
+    // .exec stores the result in an array of objects (numbered 0 to ...)
+    const contents = db.exec("SELECT * FROM BuildingCodes");
+    // this object contains two arrays: columns and values
+    var data = contents[0].values;
 
-  // Array Key:
-  // 0 - Title, 1 - Latitude, 2 - Longitude, 3 - Codes
-  for (var i in data) {
-    var row = data[i];
+    // Array Key:
+    // 0 - Title, 1 - Latitude, 2 - Longitude, 3 - Codes
+    for (var i in data) {
+      var row = data[i];
 
-    var marker = L.marker([row[1], row[2]],
-      { icon: determineIcon(row[3]), title: row[0] }) // icon is good if all network devices are on for "x" building
-      .addTo(markerGroup);
+      var marker = L.marker([row[1], row[2]],
+        { icon: determineIcon(row[3]), title: row[0] }) // icon is good if all network devices are on for "x" building
+        // .addTo(markerGroup);
 
-    var popup = L.popup({maxHeight: 350}).setContent("<b>" + row[0] + "</b><br>" + createIndividualTable(row[3]));
-    marker.bindPopup(popup);
-  }
+      var popup = L.popup({maxHeight: 350}).setContent("<b>" + row[0] + "</b><br>" + createIndividualTable(row[3]));
+      marker.bindPopup(popup);
+
+
+      // TODO: could I simplify this into a SQL query?
+      if (locationGroup.has(row[4])) {
+        // for clarity sake, all keys are converted into strings (including integers)
+        locationGroup.get(row[4]).push(marker);
+      } else {
+        locationGroup.set(row[4], new Array(marker));
+      }
+    }
+  });
 }
 
 /**
@@ -120,4 +131,30 @@ function determineIcon(listOfDevices) {
   // else, return the good icon (green checkmark)
   goodDevices++;
   return goodIcon;
+}
+
+function determineClusterIcon(clusterGroup) {
+  clusterLayers = clusterGroup.getAllChildMarkers()
+
+  for (var curLayer = 0; curLayer < clusterLayers.length; curLayer++) {
+    if (clusterLayers[curLayer].options.icon.options.iconUrl == badIconPath) {
+      return badIcon;
+    }
+  }
+  return goodIcon;
+}
+
+function groupMarkers() {
+    // TODO: how do I make this more scalable?
+    northCampus.addLayers(locationGroup.get("North Campus"));
+    eastHuntington.addLayers(locationGroup.get("East Huntington"));
+    southCampus.addLayers(locationGroup.get("South Campus"));
+    westCampus.addLayers(locationGroup.get("West Campus"));
+    offCampus.addLayers(locationGroup.get("Off Campus"));
+    centralCampus.addLayers(locationGroup.get("Central Campus"));
+}
+
+function placeGroupedMarkerSQL(db) {
+  placeMarkerSQL(db)
+    .then(groupMarkers())
 }
